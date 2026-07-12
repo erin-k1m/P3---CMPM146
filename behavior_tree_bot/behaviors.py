@@ -3,6 +3,26 @@ sys.path.insert(0, '../')
 from planet_wars import issue_order
 
 
+def defend_threatened_planet(state):
+    return False
+
+
+def snipe_enemy_capture(state):
+    return False
+
+
+def expand_to_neutral_planet(state):
+    return False
+
+
+def attack_enemy_planet(state):
+    return False
+
+
+def fallback_action(state):
+    return False
+
+
 def attack_weakest_enemy_planet(state):
     # (1) If we currently have a fleet in flight, abort plan.
     if len(state.my_fleets()) >= 1:

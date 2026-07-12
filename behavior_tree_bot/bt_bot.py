@@ -26,17 +26,47 @@ def setup_behavior_tree():
     # Top-down construction of behavior tree
     root = Selector(name='High Level Ordering of Strategies')
 
-    offensive_plan = Sequence(name='Offensive Strategy')
-    largest_fleet_check = Check(have_largest_fleet)
-    attack = Action(attack_weakest_enemy_planet)
-    offensive_plan.child_nodes = [largest_fleet_check, attack]
+    # offensive_plan = Sequence(name='Offensive Strategy')
+    # largest_fleet_check = Check(have_largest_fleet)
+    # attack = Action(attack_weakest_enemy_planet)
+    # offensive_plan.child_nodes = [largest_fleet_check, attack]
 
-    spread_sequence = Sequence(name='Spread Strategy')
-    neutral_planet_check = Check(if_neutral_planet_available)
-    spread_action = Action(spread_to_weakest_neutral_planet)
-    spread_sequence.child_nodes = [neutral_planet_check, spread_action]
+    # spread_sequence = Sequence(name='Spread Strategy')
+    # neutral_planet_check = Check(if_neutral_planet_available)
+    # spread_action = Action(spread_to_weakest_neutral_planet)
+    # spread_sequence.child_nodes = [neutral_planet_check, spread_action]
 
-    root.child_nodes = [offensive_plan, spread_sequence, attack.copy()]
+    # root.child_nodes = [offensive_plan, spread_sequence, attack.copy()]
+
+    defense_sequence = Sequence(name='Defensive Strategy')
+    defense_check = Check(if_defensive_threat)
+    defense_action = Action(defend_threatened_planet)
+    defense_sequence.child_nodes = [defense_check, defense_action]
+
+    snipe_sequence = Sequence(name='Snipe Enemy Neutral Capture')
+    snipe_check = Check(if_snipe_opportunity_available)
+    snipe_action = Action(snipe_enemy_capture)
+    snipe_sequence.child_nodes = [snipe_check, snipe_action]
+
+    expansion_sequence = Sequence(name='Neutral Expansion')
+    expansion_check = Check(if_good_neutral_available)
+    expansion_action = Action(expand_to_neutral_planet)
+    expansion_sequence.child_nodes = [expansion_check, expansion_action]
+
+    offense_sequence = Sequence(name='Offensive Attack')
+    offense_check = Check(if_offensive_target_available)
+    offense_action = Action(attack_enemy_planet)
+    offense_sequence.child_nodes = [offense_check, offense_action]
+
+    fallback_action = Action(fallback_action)
+
+    root.child_nodes = [
+        defense_sequence,
+        snipe_sequence,
+        expansion_sequence,
+        offense_sequence,
+        fallback_action,
+    ]
 
     logging.info('\n' + root.tree_to_string())
     return root
