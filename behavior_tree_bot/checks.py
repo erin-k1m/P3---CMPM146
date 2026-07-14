@@ -18,7 +18,7 @@ def if_defensive_threat(state):
             continue
 
         projected_defense = target_planet.num_ships + target_planet.growth_rate * max(0, fleet.turns_remaining - 1)
-        safety_margin = max(4, target_planet.growth_rate + 3)
+        safety_margin = max(2, target_planet.growth_rate + 1)
         if fleet.num_ships > projected_defense + safety_margin:
             return True
     return False
@@ -56,9 +56,9 @@ def if_good_neutral_available(state):
     for neutral in state.neutral_planets():
         distance = state.distance(strongest_planet.ID, neutral.ID)
         cost_to_take = neutral.num_ships + 2
-        if strongest_planet.num_ships > cost_to_take + 4 and neutral.growth_rate >= 2:
+        if strongest_planet.num_ships > cost_to_take and neutral.growth_rate >= 1:
             score = neutral.growth_rate / (neutral.num_ships + distance + 1)
-            if score >= 0.25:
+            if score >= 0.15:
                 return True
     return False
 
@@ -71,8 +71,8 @@ def if_offensive_target_available(state):
 
     for enemy in state.enemy_planets():
         distance = state.distance(strongest_planet.ID, enemy.ID)
-        estimated_cost = enemy.num_ships + enemy.growth_rate * distance + 4
-        if strongest_planet.num_ships > estimated_cost + 2:
+        estimated_cost = enemy.num_ships + enemy.growth_rate * distance + 3
+        if strongest_planet.num_ships > estimated_cost:
             return True
     return False
 

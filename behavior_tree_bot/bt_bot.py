@@ -73,23 +73,7 @@ def setup_behavior_tree():
 
 # You don't need to change this function
 def do_turn(state):
-    branches = [
-        (if_defensive_threat, defend_threatened_planet),
-        (if_snipe_opportunity_available, snipe_enemy_capture),
-        (if_good_neutral_available, expand_to_neutral_planet),
-        (if_offensive_target_available, attack_enemy_planet),
-    ]
-
-    orders_sent = 0
-    for check_fn, action_fn in branches:
-        if orders_sent >= 3:
-            break
-        if check_fn(state):
-            if action_fn(state):
-                orders_sent += 1
-
-    if orders_sent == 0:
-        spread_to_weakest_neutral_planet(state)
+    behavior_tree.execute(planet_wars)
 
 if __name__ == '__main__':
     logging.basicConfig(filename=__file__[:-3] + '.log', filemode='w', level=logging.DEBUG)
