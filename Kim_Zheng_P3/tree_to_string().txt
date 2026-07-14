@@ -1,0 +1,15 @@
+INFO:root:
+Selector: High Level Ordering of Strategies
+| Sequence: Defensive Strategy
+| | Check: if_defensive_threat
+| | Action: defend_threatened_planet
+| Sequence: Snipe Enemy Neutral Capture
+| | Check: if_snipe_opportunity_available
+| | Action: snipe_enemy_capture
+| Sequence: Neutral Expansion
+| | Check: if_good_neutral_available
+| | Action: expand_to_neutral_planet
+| Sequence: Offensive Attack
+| | Check: if_offensive_target_available
+| | Action: attack_enemy_planet
+| Action: spread_to_weakest_neutral_planet
