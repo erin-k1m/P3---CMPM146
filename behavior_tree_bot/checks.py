@@ -1,5 +1,16 @@
 
 
+def _is_exposed(state, planet):
+    for fleet in state.enemy_fleets():
+        if fleet.destination_planet != planet.ID:
+            continue
+
+        projected_defense = planet.num_ships + planet.growth_rate * max(0, fleet.turns_remaining - 1)
+        if fleet.num_ships > projected_defense:
+            return True
+    return False
+
+
 def if_defensive_threat(state):
     for fleet in state.enemy_fleets():
         target_planet = state.planets[fleet.destination_planet]
