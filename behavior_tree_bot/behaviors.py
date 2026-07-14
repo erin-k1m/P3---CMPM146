@@ -102,7 +102,7 @@ def expand_to_neutral_planet(state):    #this func checks if there is a good neu
             continue
 
         for source_planet in state.my_planets(): #iterates through all players planets to find one that can send enough  ships to capture the neutral planet before the enemy fleet arrives.
-            ships_to_send = neutral.num_ships + 1
+            ships_to_send = neutral.num_ships + 2
             if source_planet.num_ships <= ships_to_send:
                 continue
 
@@ -124,11 +124,11 @@ def attack_enemy_planet(state):
     for enemy in state.enemy_planets():
         for source_planet in state.my_planets():
             distance = state.distance(source_planet.ID, enemy.ID)
-            ships_to_send = enemy.num_ships + enemy.growth_rate * distance + 1
+            ships_to_send = enemy.num_ships + enemy.growth_rate * distance + 2
             if source_planet.num_ships <= ships_to_send:
                 continue
 
-            score = enemy.growth_rate / float(ships_to_send + distance + 1)
+            score = (enemy.growth_rate + 1) / float(ships_to_send + distance + 1)
             if best_plan is None or score > best_plan[0]:
                 best_plan = (score, source_planet, enemy, ships_to_send)
 

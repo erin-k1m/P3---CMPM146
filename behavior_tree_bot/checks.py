@@ -49,29 +49,33 @@ def if_good_neutral_available(state):
     if not state.my_planets() or not state.neutral_planets():
         return False
 
-    strongest_planet = max(state.my_planets(), key=lambda p: p.num_ships, default=None)
-    if not strongest_planet:
-        return False
-
     for neutral in state.neutral_planets():
-        distance = state.distance(strongest_planet.ID, neutral.ID)
-        cost_to_take = neutral.num_ships + 2
-        if strongest_planet.num_ships > cost_to_take and neutral.growth_rate >= 1:
-            score = neutral.growth_rate / (neutral.num_ships + distance + 1)
-            if score >= 0.15:
+        if neutral.growth_rate <= 0:
+            continue
+
+        for source_planet in state.my_planets():
+            distance = state.distance(source_planet.ID, neutral.ID)
+            cost_to_take = neutral.num_ships + 1
+            if source_planet.num_ships <= cost_to_take:
+                continue
+
+            score = neutral.growth_rate / float(cost_to_take + distance + 1)
+            if score >= 0.1:
                 return True
     return False
 
 
 def if_offensive_target_available(state):
-    if not state.my_planets() or not state.enemy_planets() or state.my_fleets():
+    if not state.my_planets() or not state.enemy_planets():
         return False
 
     strongest_planet = max(state.my_planets(), key=lambda p: p.num_ships, default=None)
+    if not strongest_planet:
+        return False
 
     for enemy in state.enemy_planets():
         distance = state.distance(strongest_planet.ID, enemy.ID)
-        estimated_cost = enemy.num_ships + enemy.growth_rate * distance + 3
+        estimated_cost = enemy.num_ships + enemy.growth_rate * distance + 2
         if strongest_planet.num_ships > estimated_cost:
             return True
     return False
