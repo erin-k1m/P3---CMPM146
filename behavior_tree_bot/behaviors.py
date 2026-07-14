@@ -19,13 +19,14 @@ def _choose_source(state, target_id, ships_needed): #chooses the best source pla
     best_score = None
 
     for source in state.my_planets():
-        if source.ID == target_id or source.num_ships <= ships_needed: #if the source planet is the same as the target planet or if the source planet doesn't have enough ships to send, skip it
+        if source.ID == target_id or source.num_ships <= 2:
             continue
 
         exposed = 1 if _is_exposed(state, source) else 0
         distance = state.distance(source.ID, target_id)
-        remaining_after = source.num_ships - ships_needed
-        score = (exposed, distance, -remaining_after, -source.num_ships) #score is a tuple that prioritizes exposed planets, then distance, then remaining ships after sending, then total ships on the source planet
+        send_amount = min(source.num_ships - 1, ships_needed)
+        remaining_after = source.num_ships - send_amount
+        score = (exposed, distance, -remaining_after, -source.num_ships)
 
         if best_score is None or score < best_score:
             best_score = score
@@ -52,12 +53,15 @@ def defend_threatened_planet(state):
     if threatened_planet is None:
         return False
 
-    ships_to_send = needed_ships + 1
+    ships_to_send = max(1, needed_ships + 1)
     source = _choose_source(state, threatened_planet.ID, ships_to_send)
     if source is None:
         return False
 
-    return issue_order(state, source.ID, threatened_planet.ID, ships_to_send)
+    send_amount = min(source.num_ships - 1, ships_to_send)
+    if send_amount <= 0:
+        return False
+    return issue_order(state, source.ID, threatened_planet.ID, send_amount)
 
 
 def snipe_enemy_capture(state): #this function checks if there is an opp to snipe an enemy fleet that is trying to capture a neutral planet. If there is, it sends ships from one of the player's planets to the neutral planet to intercept the enemy fleet.
@@ -102,20 +106,23 @@ def expand_to_neutral_planet(state):    #this func checks if there is a good neu
             continue
 
         for source_planet in state.my_planets(): #iterates through all players planets to find one that can send enough  ships to capture the neutral planet before the enemy fleet arrives.
-            ships_to_send = neutral.num_ships + 1
-            if source_planet.num_ships <= ships_to_send:
+            required = max(3, neutral.num_ships + 2)
+            if source_planet.num_ships <= required + 1:
                 continue
 
             distance = state.distance(source_planet.ID, neutral.ID)
-            score = neutral.growth_rate / float(ships_to_send + distance + 1)
-            if best_plan is None or score > best_plan[0]:
-                best_plan = (score, source_planet, neutral, ships_to_send)
+            score = neutral.growth_rate / float(required + distance + 1)
+            if score >= 0.08 and (best_plan is None or score > best_plan[0]):
+                best_plan = (score, source_planet, neutral, required)
 
     if best_plan is None:
         return False
 
     _, source_planet, neutral, ships_to_send = best_plan
-    return issue_order(state, source_planet.ID, neutral.ID, ships_to_send)
+    send_amount = min(source_planet.num_ships - 1, max(ships_to_send, source_planet.num_ships // 2))
+    if send_amount <= 0:
+        return False
+    return issue_order(state, source_planet.ID, neutral.ID, send_amount)
 
 
 def attack_enemy_planet(state): 
@@ -124,19 +131,22 @@ def attack_enemy_planet(state):
     for enemy in state.enemy_planets():
         for source_planet in state.my_planets():
             distance = state.distance(source_planet.ID, enemy.ID)
-            ships_to_send = enemy.num_ships + enemy.growth_rate * distance + 1
-            if source_planet.num_ships <= ships_to_send:
+            required = max(3, enemy.num_ships + enemy.growth_rate * distance + 1)
+            if source_planet.num_ships <= required + 1:
                 continue
 
-            score = enemy.growth_rate / float(ships_to_send + distance + 1)
+            score = enemy.growth_rate / float(required + distance + 1)
             if best_plan is None or score > best_plan[0]:
-                best_plan = (score, source_planet, enemy, ships_to_send)
+                best_plan = (score, source_planet, enemy, required)
 
     if best_plan is None:
         return False
 
     _, source_planet, enemy, ships_to_send = best_plan
-    return issue_order(state, source_planet.ID, enemy.ID, ships_to_send)
+    send_amount = min(source_planet.num_ships - 1, max(ships_to_send, source_planet.num_ships // 2))
+    if send_amount <= 0:
+        return False
+    return issue_order(state, source_planet.ID, enemy.ID, send_amount)
 
 
 def fallback_action(state):
