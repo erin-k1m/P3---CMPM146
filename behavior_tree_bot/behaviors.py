@@ -119,6 +119,7 @@ def expand_to_neutral_planet(state):    #this func checks if there is a good neu
 
 
 def attack_enemy_planet(state): 
+    best_plan = None
 
     for enemy in state.enemy_planets():
         for source_planet in state.my_planets():
@@ -158,7 +159,7 @@ def attack_weakest_enemy_planet(state):
         return False
     else:
         # (4) Send half the ships from my strongest planet to the weakest enemy planet.
-        return issue_order(state, strongest_planet.ID, weakest_planet.ID, strongest_planet.num_ships / 2)
+        return issue_order(state, strongest_planet.ID, weakest_planet.ID, strongest_planet.num_ships // 2)
 
 
 def spread_to_weakest_neutral_planet(state):
@@ -177,4 +178,4 @@ def spread_to_weakest_neutral_planet(state):
         return False
     else:
         # (4) Send half the ships from my strongest planet to the weakest enemy planet.
-        return issue_order(state, strongest_planet.ID, weakest_planet.ID, strongest_planet.num_ships / 2)
+        return issue_order(state, strongest_planet.ID, weakest_planet.ID, strongest_planet.num_ships // 2)

@@ -58,7 +58,7 @@ def setup_behavior_tree():
     offense_action = Action(attack_enemy_planet)
     offense_sequence.child_nodes = [offense_check, offense_action]
 
-    fallback_action = Action(fallback_action)
+    fallback_action = Action(spread_to_weakest_neutral_planet)
 
     root.child_nodes = [
         defense_sequence,

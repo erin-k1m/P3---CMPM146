@@ -1,0 +1,2888 @@
+INFO:root:
+Selector: High Level Ordering of Strategies
+| Sequence: Defensive Strategy
+| | Check: if_defensive_threat
+| | Action: defend_threatened_planet
+| Sequence: Snipe Enemy Neutral Capture
+| | Check: if_snipe_opportunity_available
+| | Action: snipe_enemy_capture
+| Sequence: Neutral Expansion
+| | Check: if_good_neutral_available
+| | Action: expand_to_neutral_planet
+| Sequence: Offensive Attack
+| | Check: if_offensive_target_available
+| | Action: attack_enemy_planet
+| Action: spread_to_weakest_neutral_planet
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Snipe Enemy Neutral Capture
+DEBUG:root:Executing:Check: if_snipe_opportunity_available
+DEBUG:root:Result: Check: if_snipe_opportunity_available -> Failure
+DEBUG:root:Result: Sequence: Snipe Enemy Neutral Capture -> Failure
+DEBUG:root:Executing:Sequence: Neutral Expansion
+DEBUG:root:Executing:Check: if_good_neutral_available
+DEBUG:root:Result: Check: if_good_neutral_available -> Success
+DEBUG:root:Executing:Action: expand_to_neutral_planet
+DEBUG:root:Order:1 20 8.0
+DEBUG:root:Result: Action: expand_to_neutral_planet -> Success
+DEBUG:root:Result: Sequence: Neutral Expansion -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Snipe Enemy Neutral Capture
+DEBUG:root:Executing:Check: if_snipe_opportunity_available
+DEBUG:root:Result: Check: if_snipe_opportunity_available -> Failure
+DEBUG:root:Result: Sequence: Snipe Enemy Neutral Capture -> Failure
+DEBUG:root:Executing:Sequence: Neutral Expansion
+DEBUG:root:Executing:Check: if_good_neutral_available
+DEBUG:root:Result: Check: if_good_neutral_available -> Success
+DEBUG:root:Executing:Action: expand_to_neutral_planet
+DEBUG:root:Order:1 20 8.0
+DEBUG:root:Result: Action: expand_to_neutral_planet -> Success
+DEBUG:root:Result: Sequence: Neutral Expansion -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Snipe Enemy Neutral Capture
+DEBUG:root:Executing:Check: if_snipe_opportunity_available
+DEBUG:root:Result: Check: if_snipe_opportunity_available -> Failure
+DEBUG:root:Result: Sequence: Snipe Enemy Neutral Capture -> Failure
+DEBUG:root:Executing:Sequence: Neutral Expansion
+DEBUG:root:Executing:Check: if_good_neutral_available
+DEBUG:root:Result: Check: if_good_neutral_available -> Success
+DEBUG:root:Executing:Action: expand_to_neutral_planet
+DEBUG:root:Order:1 20 8.0
+DEBUG:root:Result: Action: expand_to_neutral_planet -> Success
+DEBUG:root:Result: Sequence: Neutral Expansion -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Snipe Enemy Neutral Capture
+DEBUG:root:Executing:Check: if_snipe_opportunity_available
+DEBUG:root:Result: Check: if_snipe_opportunity_available -> Failure
+DEBUG:root:Result: Sequence: Snipe Enemy Neutral Capture -> Failure
+DEBUG:root:Executing:Sequence: Neutral Expansion
+DEBUG:root:Executing:Check: if_good_neutral_available
+DEBUG:root:Result: Check: if_good_neutral_available -> Success
+DEBUG:root:Executing:Action: expand_to_neutral_planet
+DEBUG:root:Order:1 20 8.0
+DEBUG:root:Result: Action: expand_to_neutral_planet -> Success
+DEBUG:root:Result: Sequence: Neutral Expansion -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Snipe Enemy Neutral Capture
+DEBUG:root:Executing:Check: if_snipe_opportunity_available
+DEBUG:root:Result: Check: if_snipe_opportunity_available -> Failure
+DEBUG:root:Result: Sequence: Snipe Enemy Neutral Capture -> Failure
+DEBUG:root:Executing:Sequence: Neutral Expansion
+DEBUG:root:Executing:Check: if_good_neutral_available
+DEBUG:root:Result: Check: if_good_neutral_available -> Success
+DEBUG:root:Executing:Action: expand_to_neutral_planet
+DEBUG:root:Order:1 6 5.0
+DEBUG:root:Result: Action: expand_to_neutral_planet -> Success
+DEBUG:root:Result: Sequence: Neutral Expansion -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Snipe Enemy Neutral Capture
+DEBUG:root:Executing:Check: if_snipe_opportunity_available
+DEBUG:root:Result: Check: if_snipe_opportunity_available -> Failure
+DEBUG:root:Result: Sequence: Snipe Enemy Neutral Capture -> Failure
+DEBUG:root:Executing:Sequence: Neutral Expansion
+DEBUG:root:Executing:Check: if_good_neutral_available
+DEBUG:root:Result: Check: if_good_neutral_available -> Success
+DEBUG:root:Executing:Action: expand_to_neutral_planet
+DEBUG:root:Order:1 6 5.0
+DEBUG:root:Result: Action: expand_to_neutral_planet -> Success
+DEBUG:root:Result: Sequence: Neutral Expansion -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Snipe Enemy Neutral Capture
+DEBUG:root:Executing:Check: if_snipe_opportunity_available
+DEBUG:root:Result: Check: if_snipe_opportunity_available -> Failure
+DEBUG:root:Result: Sequence: Snipe Enemy Neutral Capture -> Failure
+DEBUG:root:Executing:Sequence: Neutral Expansion
+DEBUG:root:Executing:Check: if_good_neutral_available
+DEBUG:root:Result: Check: if_good_neutral_available -> Success
+DEBUG:root:Executing:Action: expand_to_neutral_planet
+DEBUG:root:Order:1 6 5.0
+DEBUG:root:Result: Action: expand_to_neutral_planet -> Success
+DEBUG:root:Result: Sequence: Neutral Expansion -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Snipe Enemy Neutral Capture
+DEBUG:root:Executing:Check: if_snipe_opportunity_available
+DEBUG:root:Result: Check: if_snipe_opportunity_available -> Failure
+DEBUG:root:Result: Sequence: Snipe Enemy Neutral Capture -> Failure
+DEBUG:root:Executing:Sequence: Neutral Expansion
+DEBUG:root:Executing:Check: if_good_neutral_available
+DEBUG:root:Result: Check: if_good_neutral_available -> Success
+DEBUG:root:Executing:Action: expand_to_neutral_planet
+DEBUG:root:Order:20 3 13.0
+DEBUG:root:Result: Action: expand_to_neutral_planet -> Success
+DEBUG:root:Result: Sequence: Neutral Expansion -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Snipe Enemy Neutral Capture
+DEBUG:root:Executing:Check: if_snipe_opportunity_available
+DEBUG:root:Result: Check: if_snipe_opportunity_available -> Failure
+DEBUG:root:Result: Sequence: Snipe Enemy Neutral Capture -> Failure
+DEBUG:root:Executing:Sequence: Neutral Expansion
+DEBUG:root:Executing:Check: if_good_neutral_available
+DEBUG:root:Result: Check: if_good_neutral_available -> Success
+DEBUG:root:Executing:Action: expand_to_neutral_planet
+DEBUG:root:Order:20 3 13.0
+DEBUG:root:Result: Action: expand_to_neutral_planet -> Success
+DEBUG:root:Result: Sequence: Neutral Expansion -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Snipe Enemy Neutral Capture
+DEBUG:root:Executing:Check: if_snipe_opportunity_available
+DEBUG:root:Result: Check: if_snipe_opportunity_available -> Failure
+DEBUG:root:Result: Sequence: Snipe Enemy Neutral Capture -> Failure
+DEBUG:root:Executing:Sequence: Neutral Expansion
+DEBUG:root:Executing:Check: if_good_neutral_available
+DEBUG:root:Result: Check: if_good_neutral_available -> Success
+DEBUG:root:Executing:Action: expand_to_neutral_planet
+DEBUG:root:Order:1 19 8.0
+DEBUG:root:Result: Action: expand_to_neutral_planet -> Success
+DEBUG:root:Result: Sequence: Neutral Expansion -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Success
+DEBUG:root:Executing:Action: defend_threatened_planet
+DEBUG:root:Order:1 6 16.0
+DEBUG:root:Result: Action: defend_threatened_planet -> Success
+DEBUG:root:Result: Sequence: Defensive Strategy -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Success
+DEBUG:root:Executing:Action: defend_threatened_planet
+DEBUG:root:Order:1 6 11.0
+DEBUG:root:Result: Action: defend_threatened_planet -> Success
+DEBUG:root:Result: Sequence: Defensive Strategy -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Success
+DEBUG:root:Executing:Action: defend_threatened_planet
+DEBUG:root:Order:1 6 6.0
+DEBUG:root:Result: Action: defend_threatened_planet -> Success
+DEBUG:root:Result: Sequence: Defensive Strategy -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Success
+DEBUG:root:Executing:Action: defend_threatened_planet
+DEBUG:root:Order:1 6 6.0
+DEBUG:root:Result: Action: defend_threatened_planet -> Success
+DEBUG:root:Result: Sequence: Defensive Strategy -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Success
+DEBUG:root:Executing:Action: defend_threatened_planet
+DEBUG:root:Order:1 6 6.0
+DEBUG:root:Result: Action: defend_threatened_planet -> Success
+DEBUG:root:Result: Sequence: Defensive Strategy -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Success
+DEBUG:root:Executing:Action: defend_threatened_planet
+DEBUG:root:Order:1 6 6.0
+DEBUG:root:Result: Action: defend_threatened_planet -> Success
+DEBUG:root:Result: Sequence: Defensive Strategy -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Snipe Enemy Neutral Capture
+DEBUG:root:Executing:Check: if_snipe_opportunity_available
+DEBUG:root:Result: Check: if_snipe_opportunity_available -> Failure
+DEBUG:root:Result: Sequence: Snipe Enemy Neutral Capture -> Failure
+DEBUG:root:Executing:Sequence: Neutral Expansion
+DEBUG:root:Executing:Check: if_good_neutral_available
+DEBUG:root:Result: Check: if_good_neutral_available -> Failure
+DEBUG:root:Result: Sequence: Neutral Expansion -> Failure
+DEBUG:root:Executing:Sequence: Offensive Attack
+DEBUG:root:Executing:Check: if_offensive_target_available
+DEBUG:root:Result: Check: if_offensive_target_available -> Failure
+DEBUG:root:Result: Sequence: Offensive Attack -> Failure
+DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
+DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Snipe Enemy Neutral Capture
+DEBUG:root:Executing:Check: if_snipe_opportunity_available
+DEBUG:root:Result: Check: if_snipe_opportunity_available -> Failure
+DEBUG:root:Result: Sequence: Snipe Enemy Neutral Capture -> Failure
+DEBUG:root:Executing:Sequence: Neutral Expansion
+DEBUG:root:Executing:Check: if_good_neutral_available
+DEBUG:root:Result: Check: if_good_neutral_available -> Failure
+DEBUG:root:Result: Sequence: Neutral Expansion -> Failure
+DEBUG:root:Executing:Sequence: Offensive Attack
+DEBUG:root:Executing:Check: if_offensive_target_available
+DEBUG:root:Result: Check: if_offensive_target_available -> Failure
+DEBUG:root:Result: Sequence: Offensive Attack -> Failure
+DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
+DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Snipe Enemy Neutral Capture
+DEBUG:root:Executing:Check: if_snipe_opportunity_available
+DEBUG:root:Result: Check: if_snipe_opportunity_available -> Failure
+DEBUG:root:Result: Sequence: Snipe Enemy Neutral Capture -> Failure
+DEBUG:root:Executing:Sequence: Neutral Expansion
+DEBUG:root:Executing:Check: if_good_neutral_available
+DEBUG:root:Result: Check: if_good_neutral_available -> Failure
+DEBUG:root:Result: Sequence: Neutral Expansion -> Failure
+DEBUG:root:Executing:Sequence: Offensive Attack
+DEBUG:root:Executing:Check: if_offensive_target_available
+DEBUG:root:Result: Check: if_offensive_target_available -> Failure
+DEBUG:root:Result: Sequence: Offensive Attack -> Failure
+DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
+DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Snipe Enemy Neutral Capture
+DEBUG:root:Executing:Check: if_snipe_opportunity_available
+DEBUG:root:Result: Check: if_snipe_opportunity_available -> Failure
+DEBUG:root:Result: Sequence: Snipe Enemy Neutral Capture -> Failure
+DEBUG:root:Executing:Sequence: Neutral Expansion
+DEBUG:root:Executing:Check: if_good_neutral_available
+DEBUG:root:Result: Check: if_good_neutral_available -> Failure
+DEBUG:root:Result: Sequence: Neutral Expansion -> Failure
+DEBUG:root:Executing:Sequence: Offensive Attack
+DEBUG:root:Executing:Check: if_offensive_target_available
+DEBUG:root:Result: Check: if_offensive_target_available -> Failure
+DEBUG:root:Result: Sequence: Offensive Attack -> Failure
+DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
+DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Snipe Enemy Neutral Capture
+DEBUG:root:Executing:Check: if_snipe_opportunity_available
+DEBUG:root:Result: Check: if_snipe_opportunity_available -> Failure
+DEBUG:root:Result: Sequence: Snipe Enemy Neutral Capture -> Failure
+DEBUG:root:Executing:Sequence: Neutral Expansion
+DEBUG:root:Executing:Check: if_good_neutral_available
+DEBUG:root:Result: Check: if_good_neutral_available -> Failure
+DEBUG:root:Result: Sequence: Neutral Expansion -> Failure
+DEBUG:root:Executing:Sequence: Offensive Attack
+DEBUG:root:Executing:Check: if_offensive_target_available
+DEBUG:root:Result: Check: if_offensive_target_available -> Failure
+DEBUG:root:Result: Sequence: Offensive Attack -> Failure
+DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
+DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Snipe Enemy Neutral Capture
+DEBUG:root:Executing:Check: if_snipe_opportunity_available
+DEBUG:root:Result: Check: if_snipe_opportunity_available -> Failure
+DEBUG:root:Result: Sequence: Snipe Enemy Neutral Capture -> Failure
+DEBUG:root:Executing:Sequence: Neutral Expansion
+DEBUG:root:Executing:Check: if_good_neutral_available
+DEBUG:root:Result: Check: if_good_neutral_available -> Failure
+DEBUG:root:Result: Sequence: Neutral Expansion -> Failure
+DEBUG:root:Executing:Sequence: Offensive Attack
+DEBUG:root:Executing:Check: if_offensive_target_available
+DEBUG:root:Result: Check: if_offensive_target_available -> Failure
+DEBUG:root:Result: Sequence: Offensive Attack -> Failure
+DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
+DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Snipe Enemy Neutral Capture
+DEBUG:root:Executing:Check: if_snipe_opportunity_available
+DEBUG:root:Result: Check: if_snipe_opportunity_available -> Failure
+DEBUG:root:Result: Sequence: Snipe Enemy Neutral Capture -> Failure
+DEBUG:root:Executing:Sequence: Neutral Expansion
+DEBUG:root:Executing:Check: if_good_neutral_available
+DEBUG:root:Result: Check: if_good_neutral_available -> Failure
+DEBUG:root:Result: Sequence: Neutral Expansion -> Failure
+DEBUG:root:Executing:Sequence: Offensive Attack
+DEBUG:root:Executing:Check: if_offensive_target_available
+DEBUG:root:Result: Check: if_offensive_target_available -> Failure
+DEBUG:root:Result: Sequence: Offensive Attack -> Failure
+DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
+DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Snipe Enemy Neutral Capture
+DEBUG:root:Executing:Check: if_snipe_opportunity_available
+DEBUG:root:Result: Check: if_snipe_opportunity_available -> Failure
+DEBUG:root:Result: Sequence: Snipe Enemy Neutral Capture -> Failure
+DEBUG:root:Executing:Sequence: Neutral Expansion
+DEBUG:root:Executing:Check: if_good_neutral_available
+DEBUG:root:Result: Check: if_good_neutral_available -> Failure
+DEBUG:root:Result: Sequence: Neutral Expansion -> Failure
+DEBUG:root:Executing:Sequence: Offensive Attack
+DEBUG:root:Executing:Check: if_offensive_target_available
+DEBUG:root:Result: Check: if_offensive_target_available -> Failure
+DEBUG:root:Result: Sequence: Offensive Attack -> Failure
+DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
+DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Snipe Enemy Neutral Capture
+DEBUG:root:Executing:Check: if_snipe_opportunity_available
+DEBUG:root:Result: Check: if_snipe_opportunity_available -> Failure
+DEBUG:root:Result: Sequence: Snipe Enemy Neutral Capture -> Failure
+DEBUG:root:Executing:Sequence: Neutral Expansion
+DEBUG:root:Executing:Check: if_good_neutral_available
+DEBUG:root:Result: Check: if_good_neutral_available -> Failure
+DEBUG:root:Result: Sequence: Neutral Expansion -> Failure
+DEBUG:root:Executing:Sequence: Offensive Attack
+DEBUG:root:Executing:Check: if_offensive_target_available
+DEBUG:root:Result: Check: if_offensive_target_available -> Failure
+DEBUG:root:Result: Sequence: Offensive Attack -> Failure
+DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
+DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Snipe Enemy Neutral Capture
+DEBUG:root:Executing:Check: if_snipe_opportunity_available
+DEBUG:root:Result: Check: if_snipe_opportunity_available -> Failure
+DEBUG:root:Result: Sequence: Snipe Enemy Neutral Capture -> Failure
+DEBUG:root:Executing:Sequence: Neutral Expansion
+DEBUG:root:Executing:Check: if_good_neutral_available
+DEBUG:root:Result: Check: if_good_neutral_available -> Failure
+DEBUG:root:Result: Sequence: Neutral Expansion -> Failure
+DEBUG:root:Executing:Sequence: Offensive Attack
+DEBUG:root:Executing:Check: if_offensive_target_available
+DEBUG:root:Result: Check: if_offensive_target_available -> Failure
+DEBUG:root:Result: Sequence: Offensive Attack -> Failure
+DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
+DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Snipe Enemy Neutral Capture
+DEBUG:root:Executing:Check: if_snipe_opportunity_available
+DEBUG:root:Result: Check: if_snipe_opportunity_available -> Failure
+DEBUG:root:Result: Sequence: Snipe Enemy Neutral Capture -> Failure
+DEBUG:root:Executing:Sequence: Neutral Expansion
+DEBUG:root:Executing:Check: if_good_neutral_available
+DEBUG:root:Result: Check: if_good_neutral_available -> Failure
+DEBUG:root:Result: Sequence: Neutral Expansion -> Failure
+DEBUG:root:Executing:Sequence: Offensive Attack
+DEBUG:root:Executing:Check: if_offensive_target_available
+DEBUG:root:Result: Check: if_offensive_target_available -> Failure
+DEBUG:root:Result: Sequence: Offensive Attack -> Failure
+DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
+DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Snipe Enemy Neutral Capture
+DEBUG:root:Executing:Check: if_snipe_opportunity_available
+DEBUG:root:Result: Check: if_snipe_opportunity_available -> Failure
+DEBUG:root:Result: Sequence: Snipe Enemy Neutral Capture -> Failure
+DEBUG:root:Executing:Sequence: Neutral Expansion
+DEBUG:root:Executing:Check: if_good_neutral_available
+DEBUG:root:Result: Check: if_good_neutral_available -> Failure
+DEBUG:root:Result: Sequence: Neutral Expansion -> Failure
+DEBUG:root:Executing:Sequence: Offensive Attack
+DEBUG:root:Executing:Check: if_offensive_target_available
+DEBUG:root:Result: Check: if_offensive_target_available -> Failure
+DEBUG:root:Result: Sequence: Offensive Attack -> Failure
+DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
+DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Snipe Enemy Neutral Capture
+DEBUG:root:Executing:Check: if_snipe_opportunity_available
+DEBUG:root:Result: Check: if_snipe_opportunity_available -> Failure
+DEBUG:root:Result: Sequence: Snipe Enemy Neutral Capture -> Failure
+DEBUG:root:Executing:Sequence: Neutral Expansion
+DEBUG:root:Executing:Check: if_good_neutral_available
+DEBUG:root:Result: Check: if_good_neutral_available -> Failure
+DEBUG:root:Result: Sequence: Neutral Expansion -> Failure
+DEBUG:root:Executing:Sequence: Offensive Attack
+DEBUG:root:Executing:Check: if_offensive_target_available
+DEBUG:root:Result: Check: if_offensive_target_available -> Failure
+DEBUG:root:Result: Sequence: Offensive Attack -> Failure
+DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
+DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Snipe Enemy Neutral Capture
+DEBUG:root:Executing:Check: if_snipe_opportunity_available
+DEBUG:root:Result: Check: if_snipe_opportunity_available -> Failure
+DEBUG:root:Result: Sequence: Snipe Enemy Neutral Capture -> Failure
+DEBUG:root:Executing:Sequence: Neutral Expansion
+DEBUG:root:Executing:Check: if_good_neutral_available
+DEBUG:root:Result: Check: if_good_neutral_available -> Failure
+DEBUG:root:Result: Sequence: Neutral Expansion -> Failure
+DEBUG:root:Executing:Sequence: Offensive Attack
+DEBUG:root:Executing:Check: if_offensive_target_available
+DEBUG:root:Result: Check: if_offensive_target_available -> Success
+DEBUG:root:Executing:Action: attack_enemy_planet
+DEBUG:root:Order:1 5 107.0
+DEBUG:root:Result: Action: attack_enemy_planet -> Success
+DEBUG:root:Result: Sequence: Offensive Attack -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Snipe Enemy Neutral Capture
+DEBUG:root:Executing:Check: if_snipe_opportunity_available
+DEBUG:root:Result: Check: if_snipe_opportunity_available -> Failure
+DEBUG:root:Result: Sequence: Snipe Enemy Neutral Capture -> Failure
+DEBUG:root:Executing:Sequence: Neutral Expansion
+DEBUG:root:Executing:Check: if_good_neutral_available
+DEBUG:root:Result: Check: if_good_neutral_available -> Failure
+DEBUG:root:Result: Sequence: Neutral Expansion -> Failure
+DEBUG:root:Executing:Sequence: Offensive Attack
+DEBUG:root:Executing:Check: if_offensive_target_available
+DEBUG:root:Result: Check: if_offensive_target_available -> Failure
+DEBUG:root:Result: Sequence: Offensive Attack -> Failure
+DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
+DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Snipe Enemy Neutral Capture
+DEBUG:root:Executing:Check: if_snipe_opportunity_available
+DEBUG:root:Result: Check: if_snipe_opportunity_available -> Failure
+DEBUG:root:Result: Sequence: Snipe Enemy Neutral Capture -> Failure
+DEBUG:root:Executing:Sequence: Neutral Expansion
+DEBUG:root:Executing:Check: if_good_neutral_available
+DEBUG:root:Result: Check: if_good_neutral_available -> Failure
+DEBUG:root:Result: Sequence: Neutral Expansion -> Failure
+DEBUG:root:Executing:Sequence: Offensive Attack
+DEBUG:root:Executing:Check: if_offensive_target_available
+DEBUG:root:Result: Check: if_offensive_target_available -> Failure
+DEBUG:root:Result: Sequence: Offensive Attack -> Failure
+DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
+DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Snipe Enemy Neutral Capture
+DEBUG:root:Executing:Check: if_snipe_opportunity_available
+DEBUG:root:Result: Check: if_snipe_opportunity_available -> Failure
+DEBUG:root:Result: Sequence: Snipe Enemy Neutral Capture -> Failure
+DEBUG:root:Executing:Sequence: Neutral Expansion
+DEBUG:root:Executing:Check: if_good_neutral_available
+DEBUG:root:Result: Check: if_good_neutral_available -> Failure
+DEBUG:root:Result: Sequence: Neutral Expansion -> Failure
+DEBUG:root:Executing:Sequence: Offensive Attack
+DEBUG:root:Executing:Check: if_offensive_target_available
+DEBUG:root:Result: Check: if_offensive_target_available -> Failure
+DEBUG:root:Result: Sequence: Offensive Attack -> Failure
+DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
+DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Snipe Enemy Neutral Capture
+DEBUG:root:Executing:Check: if_snipe_opportunity_available
+DEBUG:root:Result: Check: if_snipe_opportunity_available -> Failure
+DEBUG:root:Result: Sequence: Snipe Enemy Neutral Capture -> Failure
+DEBUG:root:Executing:Sequence: Neutral Expansion
+DEBUG:root:Executing:Check: if_good_neutral_available
+DEBUG:root:Result: Check: if_good_neutral_available -> Failure
+DEBUG:root:Result: Sequence: Neutral Expansion -> Failure
+DEBUG:root:Executing:Sequence: Offensive Attack
+DEBUG:root:Executing:Check: if_offensive_target_available
+DEBUG:root:Result: Check: if_offensive_target_available -> Failure
+DEBUG:root:Result: Sequence: Offensive Attack -> Failure
+DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
+DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Snipe Enemy Neutral Capture
+DEBUG:root:Executing:Check: if_snipe_opportunity_available
+DEBUG:root:Result: Check: if_snipe_opportunity_available -> Failure
+DEBUG:root:Result: Sequence: Snipe Enemy Neutral Capture -> Failure
+DEBUG:root:Executing:Sequence: Neutral Expansion
+DEBUG:root:Executing:Check: if_good_neutral_available
+DEBUG:root:Result: Check: if_good_neutral_available -> Failure
+DEBUG:root:Result: Sequence: Neutral Expansion -> Failure
+DEBUG:root:Executing:Sequence: Offensive Attack
+DEBUG:root:Executing:Check: if_offensive_target_available
+DEBUG:root:Result: Check: if_offensive_target_available -> Failure
+DEBUG:root:Result: Sequence: Offensive Attack -> Failure
+DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
+DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Snipe Enemy Neutral Capture
+DEBUG:root:Executing:Check: if_snipe_opportunity_available
+DEBUG:root:Result: Check: if_snipe_opportunity_available -> Failure
+DEBUG:root:Result: Sequence: Snipe Enemy Neutral Capture -> Failure
+DEBUG:root:Executing:Sequence: Neutral Expansion
+DEBUG:root:Executing:Check: if_good_neutral_available
+DEBUG:root:Result: Check: if_good_neutral_available -> Failure
+DEBUG:root:Result: Sequence: Neutral Expansion -> Failure
+DEBUG:root:Executing:Sequence: Offensive Attack
+DEBUG:root:Executing:Check: if_offensive_target_available
+DEBUG:root:Result: Check: if_offensive_target_available -> Failure
+DEBUG:root:Result: Sequence: Offensive Attack -> Failure
+DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
+DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Snipe Enemy Neutral Capture
+DEBUG:root:Executing:Check: if_snipe_opportunity_available
+DEBUG:root:Result: Check: if_snipe_opportunity_available -> Failure
+DEBUG:root:Result: Sequence: Snipe Enemy Neutral Capture -> Failure
+DEBUG:root:Executing:Sequence: Neutral Expansion
+DEBUG:root:Executing:Check: if_good_neutral_available
+DEBUG:root:Result: Check: if_good_neutral_available -> Failure
+DEBUG:root:Result: Sequence: Neutral Expansion -> Failure
+DEBUG:root:Executing:Sequence: Offensive Attack
+DEBUG:root:Executing:Check: if_offensive_target_available
+DEBUG:root:Result: Check: if_offensive_target_available -> Failure
+DEBUG:root:Result: Sequence: Offensive Attack -> Failure
+DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
+DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Snipe Enemy Neutral Capture
+DEBUG:root:Executing:Check: if_snipe_opportunity_available
+DEBUG:root:Result: Check: if_snipe_opportunity_available -> Failure
+DEBUG:root:Result: Sequence: Snipe Enemy Neutral Capture -> Failure
+DEBUG:root:Executing:Sequence: Neutral Expansion
+DEBUG:root:Executing:Check: if_good_neutral_available
+DEBUG:root:Result: Check: if_good_neutral_available -> Failure
+DEBUG:root:Result: Sequence: Neutral Expansion -> Failure
+DEBUG:root:Executing:Sequence: Offensive Attack
+DEBUG:root:Executing:Check: if_offensive_target_available
+DEBUG:root:Result: Check: if_offensive_target_available -> Failure
+DEBUG:root:Result: Sequence: Offensive Attack -> Failure
+DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
+DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Snipe Enemy Neutral Capture
+DEBUG:root:Executing:Check: if_snipe_opportunity_available
+DEBUG:root:Result: Check: if_snipe_opportunity_available -> Failure
+DEBUG:root:Result: Sequence: Snipe Enemy Neutral Capture -> Failure
+DEBUG:root:Executing:Sequence: Neutral Expansion
+DEBUG:root:Executing:Check: if_good_neutral_available
+DEBUG:root:Result: Check: if_good_neutral_available -> Failure
+DEBUG:root:Result: Sequence: Neutral Expansion -> Failure
+DEBUG:root:Executing:Sequence: Offensive Attack
+DEBUG:root:Executing:Check: if_offensive_target_available
+DEBUG:root:Result: Check: if_offensive_target_available -> Failure
+DEBUG:root:Result: Sequence: Offensive Attack -> Failure
+DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
+DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Snipe Enemy Neutral Capture
+DEBUG:root:Executing:Check: if_snipe_opportunity_available
+DEBUG:root:Result: Check: if_snipe_opportunity_available -> Failure
+DEBUG:root:Result: Sequence: Snipe Enemy Neutral Capture -> Failure
+DEBUG:root:Executing:Sequence: Neutral Expansion
+DEBUG:root:Executing:Check: if_good_neutral_available
+DEBUG:root:Result: Check: if_good_neutral_available -> Failure
+DEBUG:root:Result: Sequence: Neutral Expansion -> Failure
+DEBUG:root:Executing:Sequence: Offensive Attack
+DEBUG:root:Executing:Check: if_offensive_target_available
+DEBUG:root:Result: Check: if_offensive_target_available -> Failure
+DEBUG:root:Result: Sequence: Offensive Attack -> Failure
+DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
+DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Snipe Enemy Neutral Capture
+DEBUG:root:Executing:Check: if_snipe_opportunity_available
+DEBUG:root:Result: Check: if_snipe_opportunity_available -> Failure
+DEBUG:root:Result: Sequence: Snipe Enemy Neutral Capture -> Failure
+DEBUG:root:Executing:Sequence: Neutral Expansion
+DEBUG:root:Executing:Check: if_good_neutral_available
+DEBUG:root:Result: Check: if_good_neutral_available -> Failure
+DEBUG:root:Result: Sequence: Neutral Expansion -> Failure
+DEBUG:root:Executing:Sequence: Offensive Attack
+DEBUG:root:Executing:Check: if_offensive_target_available
+DEBUG:root:Result: Check: if_offensive_target_available -> Failure
+DEBUG:root:Result: Sequence: Offensive Attack -> Failure
+DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
+DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Snipe Enemy Neutral Capture
+DEBUG:root:Executing:Check: if_snipe_opportunity_available
+DEBUG:root:Result: Check: if_snipe_opportunity_available -> Failure
+DEBUG:root:Result: Sequence: Snipe Enemy Neutral Capture -> Failure
+DEBUG:root:Executing:Sequence: Neutral Expansion
+DEBUG:root:Executing:Check: if_good_neutral_available
+DEBUG:root:Result: Check: if_good_neutral_available -> Failure
+DEBUG:root:Result: Sequence: Neutral Expansion -> Failure
+DEBUG:root:Executing:Sequence: Offensive Attack
+DEBUG:root:Executing:Check: if_offensive_target_available
+DEBUG:root:Result: Check: if_offensive_target_available -> Failure
+DEBUG:root:Result: Sequence: Offensive Attack -> Failure
+DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
+DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Snipe Enemy Neutral Capture
+DEBUG:root:Executing:Check: if_snipe_opportunity_available
+DEBUG:root:Result: Check: if_snipe_opportunity_available -> Failure
+DEBUG:root:Result: Sequence: Snipe Enemy Neutral Capture -> Failure
+DEBUG:root:Executing:Sequence: Neutral Expansion
+DEBUG:root:Executing:Check: if_good_neutral_available
+DEBUG:root:Result: Check: if_good_neutral_available -> Failure
+DEBUG:root:Result: Sequence: Neutral Expansion -> Failure
+DEBUG:root:Executing:Sequence: Offensive Attack
+DEBUG:root:Executing:Check: if_offensive_target_available
+DEBUG:root:Result: Check: if_offensive_target_available -> Success
+DEBUG:root:Executing:Action: attack_enemy_planet
+DEBUG:root:Order:20 4 142.0
+DEBUG:root:Result: Action: attack_enemy_planet -> Success
+DEBUG:root:Result: Sequence: Offensive Attack -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Snipe Enemy Neutral Capture
+DEBUG:root:Executing:Check: if_snipe_opportunity_available
+DEBUG:root:Result: Check: if_snipe_opportunity_available -> Failure
+DEBUG:root:Result: Sequence: Snipe Enemy Neutral Capture -> Failure
+DEBUG:root:Executing:Sequence: Neutral Expansion
+DEBUG:root:Executing:Check: if_good_neutral_available
+DEBUG:root:Result: Check: if_good_neutral_available -> Failure
+DEBUG:root:Result: Sequence: Neutral Expansion -> Failure
+DEBUG:root:Executing:Sequence: Offensive Attack
+DEBUG:root:Executing:Check: if_offensive_target_available
+DEBUG:root:Result: Check: if_offensive_target_available -> Failure
+DEBUG:root:Result: Sequence: Offensive Attack -> Failure
+DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
+DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Snipe Enemy Neutral Capture
+DEBUG:root:Executing:Check: if_snipe_opportunity_available
+DEBUG:root:Result: Check: if_snipe_opportunity_available -> Failure
+DEBUG:root:Result: Sequence: Snipe Enemy Neutral Capture -> Failure
+DEBUG:root:Executing:Sequence: Neutral Expansion
+DEBUG:root:Executing:Check: if_good_neutral_available
+DEBUG:root:Result: Check: if_good_neutral_available -> Failure
+DEBUG:root:Result: Sequence: Neutral Expansion -> Failure
+DEBUG:root:Executing:Sequence: Offensive Attack
+DEBUG:root:Executing:Check: if_offensive_target_available
+DEBUG:root:Result: Check: if_offensive_target_available -> Failure
+DEBUG:root:Result: Sequence: Offensive Attack -> Failure
+DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
+DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Snipe Enemy Neutral Capture
+DEBUG:root:Executing:Check: if_snipe_opportunity_available
+DEBUG:root:Result: Check: if_snipe_opportunity_available -> Failure
+DEBUG:root:Result: Sequence: Snipe Enemy Neutral Capture -> Failure
+DEBUG:root:Executing:Sequence: Neutral Expansion
+DEBUG:root:Executing:Check: if_good_neutral_available
+DEBUG:root:Result: Check: if_good_neutral_available -> Failure
+DEBUG:root:Result: Sequence: Neutral Expansion -> Failure
+DEBUG:root:Executing:Sequence: Offensive Attack
+DEBUG:root:Executing:Check: if_offensive_target_available
+DEBUG:root:Result: Check: if_offensive_target_available -> Failure
+DEBUG:root:Result: Sequence: Offensive Attack -> Failure
+DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
+DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Snipe Enemy Neutral Capture
+DEBUG:root:Executing:Check: if_snipe_opportunity_available
+DEBUG:root:Result: Check: if_snipe_opportunity_available -> Failure
+DEBUG:root:Result: Sequence: Snipe Enemy Neutral Capture -> Failure
+DEBUG:root:Executing:Sequence: Neutral Expansion
+DEBUG:root:Executing:Check: if_good_neutral_available
+DEBUG:root:Result: Check: if_good_neutral_available -> Failure
+DEBUG:root:Result: Sequence: Neutral Expansion -> Failure
+DEBUG:root:Executing:Sequence: Offensive Attack
+DEBUG:root:Executing:Check: if_offensive_target_available
+DEBUG:root:Result: Check: if_offensive_target_available -> Failure
+DEBUG:root:Result: Sequence: Offensive Attack -> Failure
+DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
+DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Snipe Enemy Neutral Capture
+DEBUG:root:Executing:Check: if_snipe_opportunity_available
+DEBUG:root:Result: Check: if_snipe_opportunity_available -> Failure
+DEBUG:root:Result: Sequence: Snipe Enemy Neutral Capture -> Failure
+DEBUG:root:Executing:Sequence: Neutral Expansion
+DEBUG:root:Executing:Check: if_good_neutral_available
+DEBUG:root:Result: Check: if_good_neutral_available -> Failure
+DEBUG:root:Result: Sequence: Neutral Expansion -> Failure
+DEBUG:root:Executing:Sequence: Offensive Attack
+DEBUG:root:Executing:Check: if_offensive_target_available
+DEBUG:root:Result: Check: if_offensive_target_available -> Failure
+DEBUG:root:Result: Sequence: Offensive Attack -> Failure
+DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
+DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Success
+DEBUG:root:Executing:Action: defend_threatened_planet
+DEBUG:root:Order:6 5 39.0
+DEBUG:root:Result: Action: defend_threatened_planet -> Success
+DEBUG:root:Result: Sequence: Defensive Strategy -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Success
+DEBUG:root:Executing:Action: defend_threatened_planet
+DEBUG:root:Order:6 5 39.0
+DEBUG:root:Result: Action: defend_threatened_planet -> Success
+DEBUG:root:Result: Sequence: Defensive Strategy -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Success
+DEBUG:root:Executing:Action: defend_threatened_planet
+DEBUG:root:Order:6 5 39.0
+DEBUG:root:Result: Action: defend_threatened_planet -> Success
+DEBUG:root:Result: Sequence: Defensive Strategy -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Success
+DEBUG:root:Executing:Action: defend_threatened_planet
+DEBUG:root:Order:1 5 39.0
+DEBUG:root:Result: Action: defend_threatened_planet -> Success
+DEBUG:root:Result: Sequence: Defensive Strategy -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Success
+DEBUG:root:Executing:Action: defend_threatened_planet
+DEBUG:root:Order:1 5 39.0
+DEBUG:root:Result: Action: defend_threatened_planet -> Success
+DEBUG:root:Result: Sequence: Defensive Strategy -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Snipe Enemy Neutral Capture
+DEBUG:root:Executing:Check: if_snipe_opportunity_available
+DEBUG:root:Result: Check: if_snipe_opportunity_available -> Failure
+DEBUG:root:Result: Sequence: Snipe Enemy Neutral Capture -> Failure
+DEBUG:root:Executing:Sequence: Neutral Expansion
+DEBUG:root:Executing:Check: if_good_neutral_available
+DEBUG:root:Result: Check: if_good_neutral_available -> Failure
+DEBUG:root:Result: Sequence: Neutral Expansion -> Failure
+DEBUG:root:Executing:Sequence: Offensive Attack
+DEBUG:root:Executing:Check: if_offensive_target_available
+DEBUG:root:Result: Check: if_offensive_target_available -> Failure
+DEBUG:root:Result: Sequence: Offensive Attack -> Failure
+DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
+DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Snipe Enemy Neutral Capture
+DEBUG:root:Executing:Check: if_snipe_opportunity_available
+DEBUG:root:Result: Check: if_snipe_opportunity_available -> Failure
+DEBUG:root:Result: Sequence: Snipe Enemy Neutral Capture -> Failure
+DEBUG:root:Executing:Sequence: Neutral Expansion
+DEBUG:root:Executing:Check: if_good_neutral_available
+DEBUG:root:Result: Check: if_good_neutral_available -> Failure
+DEBUG:root:Result: Sequence: Neutral Expansion -> Failure
+DEBUG:root:Executing:Sequence: Offensive Attack
+DEBUG:root:Executing:Check: if_offensive_target_available
+DEBUG:root:Result: Check: if_offensive_target_available -> Failure
+DEBUG:root:Result: Sequence: Offensive Attack -> Failure
+DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
+DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Snipe Enemy Neutral Capture
+DEBUG:root:Executing:Check: if_snipe_opportunity_available
+DEBUG:root:Result: Check: if_snipe_opportunity_available -> Failure
+DEBUG:root:Result: Sequence: Snipe Enemy Neutral Capture -> Failure
+DEBUG:root:Executing:Sequence: Neutral Expansion
+DEBUG:root:Executing:Check: if_good_neutral_available
+DEBUG:root:Result: Check: if_good_neutral_available -> Failure
+DEBUG:root:Result: Sequence: Neutral Expansion -> Failure
+DEBUG:root:Executing:Sequence: Offensive Attack
+DEBUG:root:Executing:Check: if_offensive_target_available
+DEBUG:root:Result: Check: if_offensive_target_available -> Failure
+DEBUG:root:Result: Sequence: Offensive Attack -> Failure
+DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
+DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Snipe Enemy Neutral Capture
+DEBUG:root:Executing:Check: if_snipe_opportunity_available
+DEBUG:root:Result: Check: if_snipe_opportunity_available -> Failure
+DEBUG:root:Result: Sequence: Snipe Enemy Neutral Capture -> Failure
+DEBUG:root:Executing:Sequence: Neutral Expansion
+DEBUG:root:Executing:Check: if_good_neutral_available
+DEBUG:root:Result: Check: if_good_neutral_available -> Failure
+DEBUG:root:Result: Sequence: Neutral Expansion -> Failure
+DEBUG:root:Executing:Sequence: Offensive Attack
+DEBUG:root:Executing:Check: if_offensive_target_available
+DEBUG:root:Result: Check: if_offensive_target_available -> Failure
+DEBUG:root:Result: Sequence: Offensive Attack -> Failure
+DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
+DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Snipe Enemy Neutral Capture
+DEBUG:root:Executing:Check: if_snipe_opportunity_available
+DEBUG:root:Result: Check: if_snipe_opportunity_available -> Failure
+DEBUG:root:Result: Sequence: Snipe Enemy Neutral Capture -> Failure
+DEBUG:root:Executing:Sequence: Neutral Expansion
+DEBUG:root:Executing:Check: if_good_neutral_available
+DEBUG:root:Result: Check: if_good_neutral_available -> Failure
+DEBUG:root:Result: Sequence: Neutral Expansion -> Failure
+DEBUG:root:Executing:Sequence: Offensive Attack
+DEBUG:root:Executing:Check: if_offensive_target_available
+DEBUG:root:Result: Check: if_offensive_target_available -> Failure
+DEBUG:root:Result: Sequence: Offensive Attack -> Failure
+DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
+DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Snipe Enemy Neutral Capture
+DEBUG:root:Executing:Check: if_snipe_opportunity_available
+DEBUG:root:Result: Check: if_snipe_opportunity_available -> Failure
+DEBUG:root:Result: Sequence: Snipe Enemy Neutral Capture -> Failure
+DEBUG:root:Executing:Sequence: Neutral Expansion
+DEBUG:root:Executing:Check: if_good_neutral_available
+DEBUG:root:Result: Check: if_good_neutral_available -> Failure
+DEBUG:root:Result: Sequence: Neutral Expansion -> Failure
+DEBUG:root:Executing:Sequence: Offensive Attack
+DEBUG:root:Executing:Check: if_offensive_target_available
+DEBUG:root:Result: Check: if_offensive_target_available -> Failure
+DEBUG:root:Result: Sequence: Offensive Attack -> Failure
+DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
+DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Snipe Enemy Neutral Capture
+DEBUG:root:Executing:Check: if_snipe_opportunity_available
+DEBUG:root:Result: Check: if_snipe_opportunity_available -> Failure
+DEBUG:root:Result: Sequence: Snipe Enemy Neutral Capture -> Failure
+DEBUG:root:Executing:Sequence: Neutral Expansion
+DEBUG:root:Executing:Check: if_good_neutral_available
+DEBUG:root:Result: Check: if_good_neutral_available -> Failure
+DEBUG:root:Result: Sequence: Neutral Expansion -> Failure
+DEBUG:root:Executing:Sequence: Offensive Attack
+DEBUG:root:Executing:Check: if_offensive_target_available
+DEBUG:root:Result: Check: if_offensive_target_available -> Failure
+DEBUG:root:Result: Sequence: Offensive Attack -> Failure
+DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
+DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Snipe Enemy Neutral Capture
+DEBUG:root:Executing:Check: if_snipe_opportunity_available
+DEBUG:root:Result: Check: if_snipe_opportunity_available -> Failure
+DEBUG:root:Result: Sequence: Snipe Enemy Neutral Capture -> Failure
+DEBUG:root:Executing:Sequence: Neutral Expansion
+DEBUG:root:Executing:Check: if_good_neutral_available
+DEBUG:root:Result: Check: if_good_neutral_available -> Failure
+DEBUG:root:Result: Sequence: Neutral Expansion -> Failure
+DEBUG:root:Executing:Sequence: Offensive Attack
+DEBUG:root:Executing:Check: if_offensive_target_available
+DEBUG:root:Result: Check: if_offensive_target_available -> Failure
+DEBUG:root:Result: Sequence: Offensive Attack -> Failure
+DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
+DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Snipe Enemy Neutral Capture
+DEBUG:root:Executing:Check: if_snipe_opportunity_available
+DEBUG:root:Result: Check: if_snipe_opportunity_available -> Failure
+DEBUG:root:Result: Sequence: Snipe Enemy Neutral Capture -> Failure
+DEBUG:root:Executing:Sequence: Neutral Expansion
+DEBUG:root:Executing:Check: if_good_neutral_available
+DEBUG:root:Result: Check: if_good_neutral_available -> Failure
+DEBUG:root:Result: Sequence: Neutral Expansion -> Failure
+DEBUG:root:Executing:Sequence: Offensive Attack
+DEBUG:root:Executing:Check: if_offensive_target_available
+DEBUG:root:Result: Check: if_offensive_target_available -> Failure
+DEBUG:root:Result: Sequence: Offensive Attack -> Failure
+DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
+DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Snipe Enemy Neutral Capture
+DEBUG:root:Executing:Check: if_snipe_opportunity_available
+DEBUG:root:Result: Check: if_snipe_opportunity_available -> Failure
+DEBUG:root:Result: Sequence: Snipe Enemy Neutral Capture -> Failure
+DEBUG:root:Executing:Sequence: Neutral Expansion
+DEBUG:root:Executing:Check: if_good_neutral_available
+DEBUG:root:Result: Check: if_good_neutral_available -> Failure
+DEBUG:root:Result: Sequence: Neutral Expansion -> Failure
+DEBUG:root:Executing:Sequence: Offensive Attack
+DEBUG:root:Executing:Check: if_offensive_target_available
+DEBUG:root:Result: Check: if_offensive_target_available -> Failure
+DEBUG:root:Result: Sequence: Offensive Attack -> Failure
+DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
+DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Snipe Enemy Neutral Capture
+DEBUG:root:Executing:Check: if_snipe_opportunity_available
+DEBUG:root:Result: Check: if_snipe_opportunity_available -> Failure
+DEBUG:root:Result: Sequence: Snipe Enemy Neutral Capture -> Failure
+DEBUG:root:Executing:Sequence: Neutral Expansion
+DEBUG:root:Executing:Check: if_good_neutral_available
+DEBUG:root:Result: Check: if_good_neutral_available -> Failure
+DEBUG:root:Result: Sequence: Neutral Expansion -> Failure
+DEBUG:root:Executing:Sequence: Offensive Attack
+DEBUG:root:Executing:Check: if_offensive_target_available
+DEBUG:root:Result: Check: if_offensive_target_available -> Failure
+DEBUG:root:Result: Sequence: Offensive Attack -> Failure
+DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
+DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Snipe Enemy Neutral Capture
+DEBUG:root:Executing:Check: if_snipe_opportunity_available
+DEBUG:root:Result: Check: if_snipe_opportunity_available -> Failure
+DEBUG:root:Result: Sequence: Snipe Enemy Neutral Capture -> Failure
+DEBUG:root:Executing:Sequence: Neutral Expansion
+DEBUG:root:Executing:Check: if_good_neutral_available
+DEBUG:root:Result: Check: if_good_neutral_available -> Failure
+DEBUG:root:Result: Sequence: Neutral Expansion -> Failure
+DEBUG:root:Executing:Sequence: Offensive Attack
+DEBUG:root:Executing:Check: if_offensive_target_available
+DEBUG:root:Result: Check: if_offensive_target_available -> Failure
+DEBUG:root:Result: Sequence: Offensive Attack -> Failure
+DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
+DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Snipe Enemy Neutral Capture
+DEBUG:root:Executing:Check: if_snipe_opportunity_available
+DEBUG:root:Result: Check: if_snipe_opportunity_available -> Failure
+DEBUG:root:Result: Sequence: Snipe Enemy Neutral Capture -> Failure
+DEBUG:root:Executing:Sequence: Neutral Expansion
+DEBUG:root:Executing:Check: if_good_neutral_available
+DEBUG:root:Result: Check: if_good_neutral_available -> Failure
+DEBUG:root:Result: Sequence: Neutral Expansion -> Failure
+DEBUG:root:Executing:Sequence: Offensive Attack
+DEBUG:root:Executing:Check: if_offensive_target_available
+DEBUG:root:Result: Check: if_offensive_target_available -> Failure
+DEBUG:root:Result: Sequence: Offensive Attack -> Failure
+DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
+DEBUG:root:Order:3 9 91.0
+DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Snipe Enemy Neutral Capture
+DEBUG:root:Executing:Check: if_snipe_opportunity_available
+DEBUG:root:Result: Check: if_snipe_opportunity_available -> Failure
+DEBUG:root:Result: Sequence: Snipe Enemy Neutral Capture -> Failure
+DEBUG:root:Executing:Sequence: Neutral Expansion
+DEBUG:root:Executing:Check: if_good_neutral_available
+DEBUG:root:Result: Check: if_good_neutral_available -> Failure
+DEBUG:root:Result: Sequence: Neutral Expansion -> Failure
+DEBUG:root:Executing:Sequence: Offensive Attack
+DEBUG:root:Executing:Check: if_offensive_target_available
+DEBUG:root:Result: Check: if_offensive_target_available -> Failure
+DEBUG:root:Result: Sequence: Offensive Attack -> Failure
+DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
+DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Snipe Enemy Neutral Capture
+DEBUG:root:Executing:Check: if_snipe_opportunity_available
+DEBUG:root:Result: Check: if_snipe_opportunity_available -> Failure
+DEBUG:root:Result: Sequence: Snipe Enemy Neutral Capture -> Failure
+DEBUG:root:Executing:Sequence: Neutral Expansion
+DEBUG:root:Executing:Check: if_good_neutral_available
+DEBUG:root:Result: Check: if_good_neutral_available -> Failure
+DEBUG:root:Result: Sequence: Neutral Expansion -> Failure
+DEBUG:root:Executing:Sequence: Offensive Attack
+DEBUG:root:Executing:Check: if_offensive_target_available
+DEBUG:root:Result: Check: if_offensive_target_available -> Failure
+DEBUG:root:Result: Sequence: Offensive Attack -> Failure
+DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
+DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Snipe Enemy Neutral Capture
+DEBUG:root:Executing:Check: if_snipe_opportunity_available
+DEBUG:root:Result: Check: if_snipe_opportunity_available -> Failure
+DEBUG:root:Result: Sequence: Snipe Enemy Neutral Capture -> Failure
+DEBUG:root:Executing:Sequence: Neutral Expansion
+DEBUG:root:Executing:Check: if_good_neutral_available
+DEBUG:root:Result: Check: if_good_neutral_available -> Failure
+DEBUG:root:Result: Sequence: Neutral Expansion -> Failure
+DEBUG:root:Executing:Sequence: Offensive Attack
+DEBUG:root:Executing:Check: if_offensive_target_available
+DEBUG:root:Result: Check: if_offensive_target_available -> Failure
+DEBUG:root:Result: Sequence: Offensive Attack -> Failure
+DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
+DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Snipe Enemy Neutral Capture
+DEBUG:root:Executing:Check: if_snipe_opportunity_available
+DEBUG:root:Result: Check: if_snipe_opportunity_available -> Failure
+DEBUG:root:Result: Sequence: Snipe Enemy Neutral Capture -> Failure
+DEBUG:root:Executing:Sequence: Neutral Expansion
+DEBUG:root:Executing:Check: if_good_neutral_available
+DEBUG:root:Result: Check: if_good_neutral_available -> Failure
+DEBUG:root:Result: Sequence: Neutral Expansion -> Failure
+DEBUG:root:Executing:Sequence: Offensive Attack
+DEBUG:root:Executing:Check: if_offensive_target_available
+DEBUG:root:Result: Check: if_offensive_target_available -> Failure
+DEBUG:root:Result: Sequence: Offensive Attack -> Failure
+DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
+DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Snipe Enemy Neutral Capture
+DEBUG:root:Executing:Check: if_snipe_opportunity_available
+DEBUG:root:Result: Check: if_snipe_opportunity_available -> Failure
+DEBUG:root:Result: Sequence: Snipe Enemy Neutral Capture -> Failure
+DEBUG:root:Executing:Sequence: Neutral Expansion
+DEBUG:root:Executing:Check: if_good_neutral_available
+DEBUG:root:Result: Check: if_good_neutral_available -> Failure
+DEBUG:root:Result: Sequence: Neutral Expansion -> Failure
+DEBUG:root:Executing:Sequence: Offensive Attack
+DEBUG:root:Executing:Check: if_offensive_target_available
+DEBUG:root:Result: Check: if_offensive_target_available -> Failure
+DEBUG:root:Result: Sequence: Offensive Attack -> Failure
+DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
+DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Snipe Enemy Neutral Capture
+DEBUG:root:Executing:Check: if_snipe_opportunity_available
+DEBUG:root:Result: Check: if_snipe_opportunity_available -> Failure
+DEBUG:root:Result: Sequence: Snipe Enemy Neutral Capture -> Failure
+DEBUG:root:Executing:Sequence: Neutral Expansion
+DEBUG:root:Executing:Check: if_good_neutral_available
+DEBUG:root:Result: Check: if_good_neutral_available -> Failure
+DEBUG:root:Result: Sequence: Neutral Expansion -> Failure
+DEBUG:root:Executing:Sequence: Offensive Attack
+DEBUG:root:Executing:Check: if_offensive_target_available
+DEBUG:root:Result: Check: if_offensive_target_available -> Failure
+DEBUG:root:Result: Sequence: Offensive Attack -> Failure
+DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
+DEBUG:root:Order:5 10 86.0
+DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Snipe Enemy Neutral Capture
+DEBUG:root:Executing:Check: if_snipe_opportunity_available
+DEBUG:root:Result: Check: if_snipe_opportunity_available -> Failure
+DEBUG:root:Result: Sequence: Snipe Enemy Neutral Capture -> Failure
+DEBUG:root:Executing:Sequence: Neutral Expansion
+DEBUG:root:Executing:Check: if_good_neutral_available
+DEBUG:root:Result: Check: if_good_neutral_available -> Failure
+DEBUG:root:Result: Sequence: Neutral Expansion -> Failure
+DEBUG:root:Executing:Sequence: Offensive Attack
+DEBUG:root:Executing:Check: if_offensive_target_available
+DEBUG:root:Result: Check: if_offensive_target_available -> Failure
+DEBUG:root:Result: Sequence: Offensive Attack -> Failure
+DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
+DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Snipe Enemy Neutral Capture
+DEBUG:root:Executing:Check: if_snipe_opportunity_available
+DEBUG:root:Result: Check: if_snipe_opportunity_available -> Failure
+DEBUG:root:Result: Sequence: Snipe Enemy Neutral Capture -> Failure
+DEBUG:root:Executing:Sequence: Neutral Expansion
+DEBUG:root:Executing:Check: if_good_neutral_available
+DEBUG:root:Result: Check: if_good_neutral_available -> Failure
+DEBUG:root:Result: Sequence: Neutral Expansion -> Failure
+DEBUG:root:Executing:Sequence: Offensive Attack
+DEBUG:root:Executing:Check: if_offensive_target_available
+DEBUG:root:Result: Check: if_offensive_target_available -> Failure
+DEBUG:root:Result: Sequence: Offensive Attack -> Failure
+DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
+DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Success
+DEBUG:root:Executing:Action: defend_threatened_planet
+DEBUG:root:Order:5 4 67.0
+DEBUG:root:Result: Action: defend_threatened_planet -> Success
+DEBUG:root:Result: Sequence: Defensive Strategy -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Success
+DEBUG:root:Executing:Action: defend_threatened_planet
+DEBUG:root:Order:6 4 67.0
+DEBUG:root:Result: Action: defend_threatened_planet -> Success
+DEBUG:root:Result: Sequence: Defensive Strategy -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Success
+DEBUG:root:Executing:Action: defend_threatened_planet
+DEBUG:root:Order:9 4 67.0
+DEBUG:root:Result: Action: defend_threatened_planet -> Success
+DEBUG:root:Result: Sequence: Defensive Strategy -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Snipe Enemy Neutral Capture
+DEBUG:root:Executing:Check: if_snipe_opportunity_available
+DEBUG:root:Result: Check: if_snipe_opportunity_available -> Failure
+DEBUG:root:Result: Sequence: Snipe Enemy Neutral Capture -> Failure
+DEBUG:root:Executing:Sequence: Neutral Expansion
+DEBUG:root:Executing:Check: if_good_neutral_available
+DEBUG:root:Result: Check: if_good_neutral_available -> Failure
+DEBUG:root:Result: Sequence: Neutral Expansion -> Failure
+DEBUG:root:Executing:Sequence: Offensive Attack
+DEBUG:root:Executing:Check: if_offensive_target_available
+DEBUG:root:Result: Check: if_offensive_target_available -> Failure
+DEBUG:root:Result: Sequence: Offensive Attack -> Failure
+DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
+DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Success
+DEBUG:root:Executing:Action: defend_threatened_planet
+DEBUG:root:Order:6 9 30.0
+DEBUG:root:Result: Action: defend_threatened_planet -> Success
+DEBUG:root:Result: Sequence: Defensive Strategy -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Success
+DEBUG:root:Executing:Action: defend_threatened_planet
+DEBUG:root:Order:3 9 30.0
+DEBUG:root:Result: Action: defend_threatened_planet -> Success
+DEBUG:root:Result: Sequence: Defensive Strategy -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Success
+DEBUG:root:Executing:Action: defend_threatened_planet
+DEBUG:root:Order:3 9 30.0
+DEBUG:root:Result: Action: defend_threatened_planet -> Success
+DEBUG:root:Result: Sequence: Defensive Strategy -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Snipe Enemy Neutral Capture
+DEBUG:root:Executing:Check: if_snipe_opportunity_available
+DEBUG:root:Result: Check: if_snipe_opportunity_available -> Failure
+DEBUG:root:Result: Sequence: Snipe Enemy Neutral Capture -> Failure
+DEBUG:root:Executing:Sequence: Neutral Expansion
+DEBUG:root:Executing:Check: if_good_neutral_available
+DEBUG:root:Result: Check: if_good_neutral_available -> Failure
+DEBUG:root:Result: Sequence: Neutral Expansion -> Failure
+DEBUG:root:Executing:Sequence: Offensive Attack
+DEBUG:root:Executing:Check: if_offensive_target_available
+DEBUG:root:Result: Check: if_offensive_target_available -> Failure
+DEBUG:root:Result: Sequence: Offensive Attack -> Failure
+DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
+DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Snipe Enemy Neutral Capture
+DEBUG:root:Executing:Check: if_snipe_opportunity_available
+DEBUG:root:Result: Check: if_snipe_opportunity_available -> Failure
+DEBUG:root:Result: Sequence: Snipe Enemy Neutral Capture -> Failure
+DEBUG:root:Executing:Sequence: Neutral Expansion
+DEBUG:root:Executing:Check: if_good_neutral_available
+DEBUG:root:Result: Check: if_good_neutral_available -> Failure
+DEBUG:root:Result: Sequence: Neutral Expansion -> Failure
+DEBUG:root:Executing:Sequence: Offensive Attack
+DEBUG:root:Executing:Check: if_offensive_target_available
+DEBUG:root:Result: Check: if_offensive_target_available -> Failure
+DEBUG:root:Result: Sequence: Offensive Attack -> Failure
+DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
+DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Snipe Enemy Neutral Capture
+DEBUG:root:Executing:Check: if_snipe_opportunity_available
+DEBUG:root:Result: Check: if_snipe_opportunity_available -> Failure
+DEBUG:root:Result: Sequence: Snipe Enemy Neutral Capture -> Failure
+DEBUG:root:Executing:Sequence: Neutral Expansion
+DEBUG:root:Executing:Check: if_good_neutral_available
+DEBUG:root:Result: Check: if_good_neutral_available -> Failure
+DEBUG:root:Result: Sequence: Neutral Expansion -> Failure
+DEBUG:root:Executing:Sequence: Offensive Attack
+DEBUG:root:Executing:Check: if_offensive_target_available
+DEBUG:root:Result: Check: if_offensive_target_available -> Failure
+DEBUG:root:Result: Sequence: Offensive Attack -> Failure
+DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
+DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Snipe Enemy Neutral Capture
+DEBUG:root:Executing:Check: if_snipe_opportunity_available
+DEBUG:root:Result: Check: if_snipe_opportunity_available -> Failure
+DEBUG:root:Result: Sequence: Snipe Enemy Neutral Capture -> Failure
+DEBUG:root:Executing:Sequence: Neutral Expansion
+DEBUG:root:Executing:Check: if_good_neutral_available
+DEBUG:root:Result: Check: if_good_neutral_available -> Failure
+DEBUG:root:Result: Sequence: Neutral Expansion -> Failure
+DEBUG:root:Executing:Sequence: Offensive Attack
+DEBUG:root:Executing:Check: if_offensive_target_available
+DEBUG:root:Result: Check: if_offensive_target_available -> Failure
+DEBUG:root:Result: Sequence: Offensive Attack -> Failure
+DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
+DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Snipe Enemy Neutral Capture
+DEBUG:root:Executing:Check: if_snipe_opportunity_available
+DEBUG:root:Result: Check: if_snipe_opportunity_available -> Failure
+DEBUG:root:Result: Sequence: Snipe Enemy Neutral Capture -> Failure
+DEBUG:root:Executing:Sequence: Neutral Expansion
+DEBUG:root:Executing:Check: if_good_neutral_available
+DEBUG:root:Result: Check: if_good_neutral_available -> Failure
+DEBUG:root:Result: Sequence: Neutral Expansion -> Failure
+DEBUG:root:Executing:Sequence: Offensive Attack
+DEBUG:root:Executing:Check: if_offensive_target_available
+DEBUG:root:Result: Check: if_offensive_target_available -> Failure
+DEBUG:root:Result: Sequence: Offensive Attack -> Failure
+DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
+DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Snipe Enemy Neutral Capture
+DEBUG:root:Executing:Check: if_snipe_opportunity_available
+DEBUG:root:Result: Check: if_snipe_opportunity_available -> Failure
+DEBUG:root:Result: Sequence: Snipe Enemy Neutral Capture -> Failure
+DEBUG:root:Executing:Sequence: Neutral Expansion
+DEBUG:root:Executing:Check: if_good_neutral_available
+DEBUG:root:Result: Check: if_good_neutral_available -> Failure
+DEBUG:root:Result: Sequence: Neutral Expansion -> Failure
+DEBUG:root:Executing:Sequence: Offensive Attack
+DEBUG:root:Executing:Check: if_offensive_target_available
+DEBUG:root:Result: Check: if_offensive_target_available -> Failure
+DEBUG:root:Result: Sequence: Offensive Attack -> Failure
+DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
+DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Snipe Enemy Neutral Capture
+DEBUG:root:Executing:Check: if_snipe_opportunity_available
+DEBUG:root:Result: Check: if_snipe_opportunity_available -> Failure
+DEBUG:root:Result: Sequence: Snipe Enemy Neutral Capture -> Failure
+DEBUG:root:Executing:Sequence: Neutral Expansion
+DEBUG:root:Executing:Check: if_good_neutral_available
+DEBUG:root:Result: Check: if_good_neutral_available -> Failure
+DEBUG:root:Result: Sequence: Neutral Expansion -> Failure
+DEBUG:root:Executing:Sequence: Offensive Attack
+DEBUG:root:Executing:Check: if_offensive_target_available
+DEBUG:root:Result: Check: if_offensive_target_available -> Failure
+DEBUG:root:Result: Sequence: Offensive Attack -> Failure
+DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
+DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Snipe Enemy Neutral Capture
+DEBUG:root:Executing:Check: if_snipe_opportunity_available
+DEBUG:root:Result: Check: if_snipe_opportunity_available -> Failure
+DEBUG:root:Result: Sequence: Snipe Enemy Neutral Capture -> Failure
+DEBUG:root:Executing:Sequence: Neutral Expansion
+DEBUG:root:Executing:Check: if_good_neutral_available
+DEBUG:root:Result: Check: if_good_neutral_available -> Failure
+DEBUG:root:Result: Sequence: Neutral Expansion -> Failure
+DEBUG:root:Executing:Sequence: Offensive Attack
+DEBUG:root:Executing:Check: if_offensive_target_available
+DEBUG:root:Result: Check: if_offensive_target_available -> Failure
+DEBUG:root:Result: Sequence: Offensive Attack -> Failure
+DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
+DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Snipe Enemy Neutral Capture
+DEBUG:root:Executing:Check: if_snipe_opportunity_available
+DEBUG:root:Result: Check: if_snipe_opportunity_available -> Failure
+DEBUG:root:Result: Sequence: Snipe Enemy Neutral Capture -> Failure
+DEBUG:root:Executing:Sequence: Neutral Expansion
+DEBUG:root:Executing:Check: if_good_neutral_available
+DEBUG:root:Result: Check: if_good_neutral_available -> Failure
+DEBUG:root:Result: Sequence: Neutral Expansion -> Failure
+DEBUG:root:Executing:Sequence: Offensive Attack
+DEBUG:root:Executing:Check: if_offensive_target_available
+DEBUG:root:Result: Check: if_offensive_target_available -> Failure
+DEBUG:root:Result: Sequence: Offensive Attack -> Failure
+DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
+DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Snipe Enemy Neutral Capture
+DEBUG:root:Executing:Check: if_snipe_opportunity_available
+DEBUG:root:Result: Check: if_snipe_opportunity_available -> Failure
+DEBUG:root:Result: Sequence: Snipe Enemy Neutral Capture -> Failure
+DEBUG:root:Executing:Sequence: Neutral Expansion
+DEBUG:root:Executing:Check: if_good_neutral_available
+DEBUG:root:Result: Check: if_good_neutral_available -> Failure
+DEBUG:root:Result: Sequence: Neutral Expansion -> Failure
+DEBUG:root:Executing:Sequence: Offensive Attack
+DEBUG:root:Executing:Check: if_offensive_target_available
+DEBUG:root:Result: Check: if_offensive_target_available -> Failure
+DEBUG:root:Result: Sequence: Offensive Attack -> Failure
+DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
+DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Snipe Enemy Neutral Capture
+DEBUG:root:Executing:Check: if_snipe_opportunity_available
+DEBUG:root:Result: Check: if_snipe_opportunity_available -> Failure
+DEBUG:root:Result: Sequence: Snipe Enemy Neutral Capture -> Failure
+DEBUG:root:Executing:Sequence: Neutral Expansion
+DEBUG:root:Executing:Check: if_good_neutral_available
+DEBUG:root:Result: Check: if_good_neutral_available -> Failure
+DEBUG:root:Result: Sequence: Neutral Expansion -> Failure
+DEBUG:root:Executing:Sequence: Offensive Attack
+DEBUG:root:Executing:Check: if_offensive_target_available
+DEBUG:root:Result: Check: if_offensive_target_available -> Failure
+DEBUG:root:Result: Sequence: Offensive Attack -> Failure
+DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
+DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Snipe Enemy Neutral Capture
+DEBUG:root:Executing:Check: if_snipe_opportunity_available
+DEBUG:root:Result: Check: if_snipe_opportunity_available -> Failure
+DEBUG:root:Result: Sequence: Snipe Enemy Neutral Capture -> Failure
+DEBUG:root:Executing:Sequence: Neutral Expansion
+DEBUG:root:Executing:Check: if_good_neutral_available
+DEBUG:root:Result: Check: if_good_neutral_available -> Failure
+DEBUG:root:Result: Sequence: Neutral Expansion -> Failure
+DEBUG:root:Executing:Sequence: Offensive Attack
+DEBUG:root:Executing:Check: if_offensive_target_available
+DEBUG:root:Result: Check: if_offensive_target_available -> Failure
+DEBUG:root:Result: Sequence: Offensive Attack -> Failure
+DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
+DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Snipe Enemy Neutral Capture
+DEBUG:root:Executing:Check: if_snipe_opportunity_available
+DEBUG:root:Result: Check: if_snipe_opportunity_available -> Failure
+DEBUG:root:Result: Sequence: Snipe Enemy Neutral Capture -> Failure
+DEBUG:root:Executing:Sequence: Neutral Expansion
+DEBUG:root:Executing:Check: if_good_neutral_available
+DEBUG:root:Result: Check: if_good_neutral_available -> Failure
+DEBUG:root:Result: Sequence: Neutral Expansion -> Failure
+DEBUG:root:Executing:Sequence: Offensive Attack
+DEBUG:root:Executing:Check: if_offensive_target_available
+DEBUG:root:Result: Check: if_offensive_target_available -> Failure
+DEBUG:root:Result: Sequence: Offensive Attack -> Failure
+DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
+DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Snipe Enemy Neutral Capture
+DEBUG:root:Executing:Check: if_snipe_opportunity_available
+DEBUG:root:Result: Check: if_snipe_opportunity_available -> Failure
+DEBUG:root:Result: Sequence: Snipe Enemy Neutral Capture -> Failure
+DEBUG:root:Executing:Sequence: Neutral Expansion
+DEBUG:root:Executing:Check: if_good_neutral_available
+DEBUG:root:Result: Check: if_good_neutral_available -> Failure
+DEBUG:root:Result: Sequence: Neutral Expansion -> Failure
+DEBUG:root:Executing:Sequence: Offensive Attack
+DEBUG:root:Executing:Check: if_offensive_target_available
+DEBUG:root:Result: Check: if_offensive_target_available -> Failure
+DEBUG:root:Result: Sequence: Offensive Attack -> Failure
+DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
+DEBUG:root:Order:20 21 108.0
+DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Snipe Enemy Neutral Capture
+DEBUG:root:Executing:Check: if_snipe_opportunity_available
+DEBUG:root:Result: Check: if_snipe_opportunity_available -> Failure
+DEBUG:root:Result: Sequence: Snipe Enemy Neutral Capture -> Failure
+DEBUG:root:Executing:Sequence: Neutral Expansion
+DEBUG:root:Executing:Check: if_good_neutral_available
+DEBUG:root:Result: Check: if_good_neutral_available -> Failure
+DEBUG:root:Result: Sequence: Neutral Expansion -> Failure
+DEBUG:root:Executing:Sequence: Offensive Attack
+DEBUG:root:Executing:Check: if_offensive_target_available
+DEBUG:root:Result: Check: if_offensive_target_available -> Failure
+DEBUG:root:Result: Sequence: Offensive Attack -> Failure
+DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
+DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Snipe Enemy Neutral Capture
+DEBUG:root:Executing:Check: if_snipe_opportunity_available
+DEBUG:root:Result: Check: if_snipe_opportunity_available -> Failure
+DEBUG:root:Result: Sequence: Snipe Enemy Neutral Capture -> Failure
+DEBUG:root:Executing:Sequence: Neutral Expansion
+DEBUG:root:Executing:Check: if_good_neutral_available
+DEBUG:root:Result: Check: if_good_neutral_available -> Failure
+DEBUG:root:Result: Sequence: Neutral Expansion -> Failure
+DEBUG:root:Executing:Sequence: Offensive Attack
+DEBUG:root:Executing:Check: if_offensive_target_available
+DEBUG:root:Result: Check: if_offensive_target_available -> Failure
+DEBUG:root:Result: Sequence: Offensive Attack -> Failure
+DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
+DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Snipe Enemy Neutral Capture
+DEBUG:root:Executing:Check: if_snipe_opportunity_available
+DEBUG:root:Result: Check: if_snipe_opportunity_available -> Failure
+DEBUG:root:Result: Sequence: Snipe Enemy Neutral Capture -> Failure
+DEBUG:root:Executing:Sequence: Neutral Expansion
+DEBUG:root:Executing:Check: if_good_neutral_available
+DEBUG:root:Result: Check: if_good_neutral_available -> Failure
+DEBUG:root:Result: Sequence: Neutral Expansion -> Failure
+DEBUG:root:Executing:Sequence: Offensive Attack
+DEBUG:root:Executing:Check: if_offensive_target_available
+DEBUG:root:Result: Check: if_offensive_target_available -> Failure
+DEBUG:root:Result: Sequence: Offensive Attack -> Failure
+DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
+DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Snipe Enemy Neutral Capture
+DEBUG:root:Executing:Check: if_snipe_opportunity_available
+DEBUG:root:Result: Check: if_snipe_opportunity_available -> Failure
+DEBUG:root:Result: Sequence: Snipe Enemy Neutral Capture -> Failure
+DEBUG:root:Executing:Sequence: Neutral Expansion
+DEBUG:root:Executing:Check: if_good_neutral_available
+DEBUG:root:Result: Check: if_good_neutral_available -> Failure
+DEBUG:root:Result: Sequence: Neutral Expansion -> Failure
+DEBUG:root:Executing:Sequence: Offensive Attack
+DEBUG:root:Executing:Check: if_offensive_target_available
+DEBUG:root:Result: Check: if_offensive_target_available -> Failure
+DEBUG:root:Result: Sequence: Offensive Attack -> Failure
+DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
+DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Snipe Enemy Neutral Capture
+DEBUG:root:Executing:Check: if_snipe_opportunity_available
+DEBUG:root:Result: Check: if_snipe_opportunity_available -> Failure
+DEBUG:root:Result: Sequence: Snipe Enemy Neutral Capture -> Failure
+DEBUG:root:Executing:Sequence: Neutral Expansion
+DEBUG:root:Executing:Check: if_good_neutral_available
+DEBUG:root:Result: Check: if_good_neutral_available -> Failure
+DEBUG:root:Result: Sequence: Neutral Expansion -> Failure
+DEBUG:root:Executing:Sequence: Offensive Attack
+DEBUG:root:Executing:Check: if_offensive_target_available
+DEBUG:root:Result: Check: if_offensive_target_available -> Failure
+DEBUG:root:Result: Sequence: Offensive Attack -> Failure
+DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
+DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Snipe Enemy Neutral Capture
+DEBUG:root:Executing:Check: if_snipe_opportunity_available
+DEBUG:root:Result: Check: if_snipe_opportunity_available -> Failure
+DEBUG:root:Result: Sequence: Snipe Enemy Neutral Capture -> Failure
+DEBUG:root:Executing:Sequence: Neutral Expansion
+DEBUG:root:Executing:Check: if_good_neutral_available
+DEBUG:root:Result: Check: if_good_neutral_available -> Failure
+DEBUG:root:Result: Sequence: Neutral Expansion -> Failure
+DEBUG:root:Executing:Sequence: Offensive Attack
+DEBUG:root:Executing:Check: if_offensive_target_available
+DEBUG:root:Result: Check: if_offensive_target_available -> Failure
+DEBUG:root:Result: Sequence: Offensive Attack -> Failure
+DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
+DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Snipe Enemy Neutral Capture
+DEBUG:root:Executing:Check: if_snipe_opportunity_available
+DEBUG:root:Result: Check: if_snipe_opportunity_available -> Failure
+DEBUG:root:Result: Sequence: Snipe Enemy Neutral Capture -> Failure
+DEBUG:root:Executing:Sequence: Neutral Expansion
+DEBUG:root:Executing:Check: if_good_neutral_available
+DEBUG:root:Result: Check: if_good_neutral_available -> Failure
+DEBUG:root:Result: Sequence: Neutral Expansion -> Failure
+DEBUG:root:Executing:Sequence: Offensive Attack
+DEBUG:root:Executing:Check: if_offensive_target_available
+DEBUG:root:Result: Check: if_offensive_target_available -> Failure
+DEBUG:root:Result: Sequence: Offensive Attack -> Failure
+DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
+DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Snipe Enemy Neutral Capture
+DEBUG:root:Executing:Check: if_snipe_opportunity_available
+DEBUG:root:Result: Check: if_snipe_opportunity_available -> Failure
+DEBUG:root:Result: Sequence: Snipe Enemy Neutral Capture -> Failure
+DEBUG:root:Executing:Sequence: Neutral Expansion
+DEBUG:root:Executing:Check: if_good_neutral_available
+DEBUG:root:Result: Check: if_good_neutral_available -> Failure
+DEBUG:root:Result: Sequence: Neutral Expansion -> Failure
+DEBUG:root:Executing:Sequence: Offensive Attack
+DEBUG:root:Executing:Check: if_offensive_target_available
+DEBUG:root:Result: Check: if_offensive_target_available -> Failure
+DEBUG:root:Result: Sequence: Offensive Attack -> Failure
+DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
+DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Snipe Enemy Neutral Capture
+DEBUG:root:Executing:Check: if_snipe_opportunity_available
+DEBUG:root:Result: Check: if_snipe_opportunity_available -> Failure
+DEBUG:root:Result: Sequence: Snipe Enemy Neutral Capture -> Failure
+DEBUG:root:Executing:Sequence: Neutral Expansion
+DEBUG:root:Executing:Check: if_good_neutral_available
+DEBUG:root:Result: Check: if_good_neutral_available -> Failure
+DEBUG:root:Result: Sequence: Neutral Expansion -> Failure
+DEBUG:root:Executing:Sequence: Offensive Attack
+DEBUG:root:Executing:Check: if_offensive_target_available
+DEBUG:root:Result: Check: if_offensive_target_available -> Failure
+DEBUG:root:Result: Sequence: Offensive Attack -> Failure
+DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
+DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Snipe Enemy Neutral Capture
+DEBUG:root:Executing:Check: if_snipe_opportunity_available
+DEBUG:root:Result: Check: if_snipe_opportunity_available -> Failure
+DEBUG:root:Result: Sequence: Snipe Enemy Neutral Capture -> Failure
+DEBUG:root:Executing:Sequence: Neutral Expansion
+DEBUG:root:Executing:Check: if_good_neutral_available
+DEBUG:root:Result: Check: if_good_neutral_available -> Failure
+DEBUG:root:Result: Sequence: Neutral Expansion -> Failure
+DEBUG:root:Executing:Sequence: Offensive Attack
+DEBUG:root:Executing:Check: if_offensive_target_available
+DEBUG:root:Result: Check: if_offensive_target_available -> Failure
+DEBUG:root:Result: Sequence: Offensive Attack -> Failure
+DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
+DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Snipe Enemy Neutral Capture
+DEBUG:root:Executing:Check: if_snipe_opportunity_available
+DEBUG:root:Result: Check: if_snipe_opportunity_available -> Failure
+DEBUG:root:Result: Sequence: Snipe Enemy Neutral Capture -> Failure
+DEBUG:root:Executing:Sequence: Neutral Expansion
+DEBUG:root:Executing:Check: if_good_neutral_available
+DEBUG:root:Result: Check: if_good_neutral_available -> Failure
+DEBUG:root:Result: Sequence: Neutral Expansion -> Failure
+DEBUG:root:Executing:Sequence: Offensive Attack
+DEBUG:root:Executing:Check: if_offensive_target_available
+DEBUG:root:Result: Check: if_offensive_target_available -> Failure
+DEBUG:root:Result: Sequence: Offensive Attack -> Failure
+DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
+DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Snipe Enemy Neutral Capture
+DEBUG:root:Executing:Check: if_snipe_opportunity_available
+DEBUG:root:Result: Check: if_snipe_opportunity_available -> Failure
+DEBUG:root:Result: Sequence: Snipe Enemy Neutral Capture -> Failure
+DEBUG:root:Executing:Sequence: Neutral Expansion
+DEBUG:root:Executing:Check: if_good_neutral_available
+DEBUG:root:Result: Check: if_good_neutral_available -> Failure
+DEBUG:root:Result: Sequence: Neutral Expansion -> Failure
+DEBUG:root:Executing:Sequence: Offensive Attack
+DEBUG:root:Executing:Check: if_offensive_target_available
+DEBUG:root:Result: Check: if_offensive_target_available -> Failure
+DEBUG:root:Result: Sequence: Offensive Attack -> Failure
+DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
+DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Snipe Enemy Neutral Capture
+DEBUG:root:Executing:Check: if_snipe_opportunity_available
+DEBUG:root:Result: Check: if_snipe_opportunity_available -> Failure
+DEBUG:root:Result: Sequence: Snipe Enemy Neutral Capture -> Failure
+DEBUG:root:Executing:Sequence: Neutral Expansion
+DEBUG:root:Executing:Check: if_good_neutral_available
+DEBUG:root:Result: Check: if_good_neutral_available -> Failure
+DEBUG:root:Result: Sequence: Neutral Expansion -> Failure
+DEBUG:root:Executing:Sequence: Offensive Attack
+DEBUG:root:Executing:Check: if_offensive_target_available
+DEBUG:root:Result: Check: if_offensive_target_available -> Failure
+DEBUG:root:Result: Sequence: Offensive Attack -> Failure
+DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
+DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Snipe Enemy Neutral Capture
+DEBUG:root:Executing:Check: if_snipe_opportunity_available
+DEBUG:root:Result: Check: if_snipe_opportunity_available -> Failure
+DEBUG:root:Result: Sequence: Snipe Enemy Neutral Capture -> Failure
+DEBUG:root:Executing:Sequence: Neutral Expansion
+DEBUG:root:Executing:Check: if_good_neutral_available
+DEBUG:root:Result: Check: if_good_neutral_available -> Failure
+DEBUG:root:Result: Sequence: Neutral Expansion -> Failure
+DEBUG:root:Executing:Sequence: Offensive Attack
+DEBUG:root:Executing:Check: if_offensive_target_available
+DEBUG:root:Result: Check: if_offensive_target_available -> Failure
+DEBUG:root:Result: Sequence: Offensive Attack -> Failure
+DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
+DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Snipe Enemy Neutral Capture
+DEBUG:root:Executing:Check: if_snipe_opportunity_available
+DEBUG:root:Result: Check: if_snipe_opportunity_available -> Failure
+DEBUG:root:Result: Sequence: Snipe Enemy Neutral Capture -> Failure
+DEBUG:root:Executing:Sequence: Neutral Expansion
+DEBUG:root:Executing:Check: if_good_neutral_available
+DEBUG:root:Result: Check: if_good_neutral_available -> Failure
+DEBUG:root:Result: Sequence: Neutral Expansion -> Failure
+DEBUG:root:Executing:Sequence: Offensive Attack
+DEBUG:root:Executing:Check: if_offensive_target_available
+DEBUG:root:Result: Check: if_offensive_target_available -> Failure
+DEBUG:root:Result: Sequence: Offensive Attack -> Failure
+DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
+DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Snipe Enemy Neutral Capture
+DEBUG:root:Executing:Check: if_snipe_opportunity_available
+DEBUG:root:Result: Check: if_snipe_opportunity_available -> Failure
+DEBUG:root:Result: Sequence: Snipe Enemy Neutral Capture -> Failure
+DEBUG:root:Executing:Sequence: Neutral Expansion
+DEBUG:root:Executing:Check: if_good_neutral_available
+DEBUG:root:Result: Check: if_good_neutral_available -> Failure
+DEBUG:root:Result: Sequence: Neutral Expansion -> Failure
+DEBUG:root:Executing:Sequence: Offensive Attack
+DEBUG:root:Executing:Check: if_offensive_target_available
+DEBUG:root:Result: Check: if_offensive_target_available -> Failure
+DEBUG:root:Result: Sequence: Offensive Attack -> Failure
+DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
+DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Snipe Enemy Neutral Capture
+DEBUG:root:Executing:Check: if_snipe_opportunity_available
+DEBUG:root:Result: Check: if_snipe_opportunity_available -> Failure
+DEBUG:root:Result: Sequence: Snipe Enemy Neutral Capture -> Failure
+DEBUG:root:Executing:Sequence: Neutral Expansion
+DEBUG:root:Executing:Check: if_good_neutral_available
+DEBUG:root:Result: Check: if_good_neutral_available -> Failure
+DEBUG:root:Result: Sequence: Neutral Expansion -> Failure
+DEBUG:root:Executing:Sequence: Offensive Attack
+DEBUG:root:Executing:Check: if_offensive_target_available
+DEBUG:root:Result: Check: if_offensive_target_available -> Failure
+DEBUG:root:Result: Sequence: Offensive Attack -> Failure
+DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
+DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Snipe Enemy Neutral Capture
+DEBUG:root:Executing:Check: if_snipe_opportunity_available
+DEBUG:root:Result: Check: if_snipe_opportunity_available -> Failure
+DEBUG:root:Result: Sequence: Snipe Enemy Neutral Capture -> Failure
+DEBUG:root:Executing:Sequence: Neutral Expansion
+DEBUG:root:Executing:Check: if_good_neutral_available
+DEBUG:root:Result: Check: if_good_neutral_available -> Failure
+DEBUG:root:Result: Sequence: Neutral Expansion -> Failure
+DEBUG:root:Executing:Sequence: Offensive Attack
+DEBUG:root:Executing:Check: if_offensive_target_available
+DEBUG:root:Result: Check: if_offensive_target_available -> Failure
+DEBUG:root:Result: Sequence: Offensive Attack -> Failure
+DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
+DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Snipe Enemy Neutral Capture
+DEBUG:root:Executing:Check: if_snipe_opportunity_available
+DEBUG:root:Result: Check: if_snipe_opportunity_available -> Failure
+DEBUG:root:Result: Sequence: Snipe Enemy Neutral Capture -> Failure
+DEBUG:root:Executing:Sequence: Neutral Expansion
+DEBUG:root:Executing:Check: if_good_neutral_available
+DEBUG:root:Result: Check: if_good_neutral_available -> Failure
+DEBUG:root:Result: Sequence: Neutral Expansion -> Failure
+DEBUG:root:Executing:Sequence: Offensive Attack
+DEBUG:root:Executing:Check: if_offensive_target_available
+DEBUG:root:Result: Check: if_offensive_target_available -> Failure
+DEBUG:root:Result: Sequence: Offensive Attack -> Failure
+DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
+DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Snipe Enemy Neutral Capture
+DEBUG:root:Executing:Check: if_snipe_opportunity_available
+DEBUG:root:Result: Check: if_snipe_opportunity_available -> Failure
+DEBUG:root:Result: Sequence: Snipe Enemy Neutral Capture -> Failure
+DEBUG:root:Executing:Sequence: Neutral Expansion
+DEBUG:root:Executing:Check: if_good_neutral_available
+DEBUG:root:Result: Check: if_good_neutral_available -> Failure
+DEBUG:root:Result: Sequence: Neutral Expansion -> Failure
+DEBUG:root:Executing:Sequence: Offensive Attack
+DEBUG:root:Executing:Check: if_offensive_target_available
+DEBUG:root:Result: Check: if_offensive_target_available -> Failure
+DEBUG:root:Result: Sequence: Offensive Attack -> Failure
+DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
+DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Snipe Enemy Neutral Capture
+DEBUG:root:Executing:Check: if_snipe_opportunity_available
+DEBUG:root:Result: Check: if_snipe_opportunity_available -> Failure
+DEBUG:root:Result: Sequence: Snipe Enemy Neutral Capture -> Failure
+DEBUG:root:Executing:Sequence: Neutral Expansion
+DEBUG:root:Executing:Check: if_good_neutral_available
+DEBUG:root:Result: Check: if_good_neutral_available -> Failure
+DEBUG:root:Result: Sequence: Neutral Expansion -> Failure
+DEBUG:root:Executing:Sequence: Offensive Attack
+DEBUG:root:Executing:Check: if_offensive_target_available
+DEBUG:root:Result: Check: if_offensive_target_available -> Failure
+DEBUG:root:Result: Sequence: Offensive Attack -> Failure
+DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
+DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Snipe Enemy Neutral Capture
+DEBUG:root:Executing:Check: if_snipe_opportunity_available
+DEBUG:root:Result: Check: if_snipe_opportunity_available -> Failure
+DEBUG:root:Result: Sequence: Snipe Enemy Neutral Capture -> Failure
+DEBUG:root:Executing:Sequence: Neutral Expansion
+DEBUG:root:Executing:Check: if_good_neutral_available
+DEBUG:root:Result: Check: if_good_neutral_available -> Failure
+DEBUG:root:Result: Sequence: Neutral Expansion -> Failure
+DEBUG:root:Executing:Sequence: Offensive Attack
+DEBUG:root:Executing:Check: if_offensive_target_available
+DEBUG:root:Result: Check: if_offensive_target_available -> Failure
+DEBUG:root:Result: Sequence: Offensive Attack -> Failure
+DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
+DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Snipe Enemy Neutral Capture
+DEBUG:root:Executing:Check: if_snipe_opportunity_available
+DEBUG:root:Result: Check: if_snipe_opportunity_available -> Failure
+DEBUG:root:Result: Sequence: Snipe Enemy Neutral Capture -> Failure
+DEBUG:root:Executing:Sequence: Neutral Expansion
+DEBUG:root:Executing:Check: if_good_neutral_available
+DEBUG:root:Result: Check: if_good_neutral_available -> Failure
+DEBUG:root:Result: Sequence: Neutral Expansion -> Failure
+DEBUG:root:Executing:Sequence: Offensive Attack
+DEBUG:root:Executing:Check: if_offensive_target_available
+DEBUG:root:Result: Check: if_offensive_target_available -> Failure
+DEBUG:root:Result: Sequence: Offensive Attack -> Failure
+DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
+DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Snipe Enemy Neutral Capture
+DEBUG:root:Executing:Check: if_snipe_opportunity_available
+DEBUG:root:Result: Check: if_snipe_opportunity_available -> Failure
+DEBUG:root:Result: Sequence: Snipe Enemy Neutral Capture -> Failure
+DEBUG:root:Executing:Sequence: Neutral Expansion
+DEBUG:root:Executing:Check: if_good_neutral_available
+DEBUG:root:Result: Check: if_good_neutral_available -> Failure
+DEBUG:root:Result: Sequence: Neutral Expansion -> Failure
+DEBUG:root:Executing:Sequence: Offensive Attack
+DEBUG:root:Executing:Check: if_offensive_target_available
+DEBUG:root:Result: Check: if_offensive_target_available -> Failure
+DEBUG:root:Result: Sequence: Offensive Attack -> Failure
+DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
+DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Snipe Enemy Neutral Capture
+DEBUG:root:Executing:Check: if_snipe_opportunity_available
+DEBUG:root:Result: Check: if_snipe_opportunity_available -> Failure
+DEBUG:root:Result: Sequence: Snipe Enemy Neutral Capture -> Failure
+DEBUG:root:Executing:Sequence: Neutral Expansion
+DEBUG:root:Executing:Check: if_good_neutral_available
+DEBUG:root:Result: Check: if_good_neutral_available -> Failure
+DEBUG:root:Result: Sequence: Neutral Expansion -> Failure
+DEBUG:root:Executing:Sequence: Offensive Attack
+DEBUG:root:Executing:Check: if_offensive_target_available
+DEBUG:root:Result: Check: if_offensive_target_available -> Success
+DEBUG:root:Executing:Action: attack_enemy_planet
+DEBUG:root:Order:4 19 173.0
+DEBUG:root:Result: Action: attack_enemy_planet -> Success
+DEBUG:root:Result: Sequence: Offensive Attack -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Snipe Enemy Neutral Capture
+DEBUG:root:Executing:Check: if_snipe_opportunity_available
+DEBUG:root:Result: Check: if_snipe_opportunity_available -> Failure
+DEBUG:root:Result: Sequence: Snipe Enemy Neutral Capture -> Failure
+DEBUG:root:Executing:Sequence: Neutral Expansion
+DEBUG:root:Executing:Check: if_good_neutral_available
+DEBUG:root:Result: Check: if_good_neutral_available -> Failure
+DEBUG:root:Result: Sequence: Neutral Expansion -> Failure
+DEBUG:root:Executing:Sequence: Offensive Attack
+DEBUG:root:Executing:Check: if_offensive_target_available
+DEBUG:root:Result: Check: if_offensive_target_available -> Failure
+DEBUG:root:Result: Sequence: Offensive Attack -> Failure
+DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
+DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Snipe Enemy Neutral Capture
+DEBUG:root:Executing:Check: if_snipe_opportunity_available
+DEBUG:root:Result: Check: if_snipe_opportunity_available -> Failure
+DEBUG:root:Result: Sequence: Snipe Enemy Neutral Capture -> Failure
+DEBUG:root:Executing:Sequence: Neutral Expansion
+DEBUG:root:Executing:Check: if_good_neutral_available
+DEBUG:root:Result: Check: if_good_neutral_available -> Failure
+DEBUG:root:Result: Sequence: Neutral Expansion -> Failure
+DEBUG:root:Executing:Sequence: Offensive Attack
+DEBUG:root:Executing:Check: if_offensive_target_available
+DEBUG:root:Result: Check: if_offensive_target_available -> Failure
+DEBUG:root:Result: Sequence: Offensive Attack -> Failure
+DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
+DEBUG:root:Order:1 22 141.0
+DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Snipe Enemy Neutral Capture
+DEBUG:root:Executing:Check: if_snipe_opportunity_available
+DEBUG:root:Result: Check: if_snipe_opportunity_available -> Failure
+DEBUG:root:Result: Sequence: Snipe Enemy Neutral Capture -> Failure
+DEBUG:root:Executing:Sequence: Neutral Expansion
+DEBUG:root:Executing:Check: if_good_neutral_available
+DEBUG:root:Result: Check: if_good_neutral_available -> Failure
+DEBUG:root:Result: Sequence: Neutral Expansion -> Failure
+DEBUG:root:Executing:Sequence: Offensive Attack
+DEBUG:root:Executing:Check: if_offensive_target_available
+DEBUG:root:Result: Check: if_offensive_target_available -> Failure
+DEBUG:root:Result: Sequence: Offensive Attack -> Failure
+DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
+DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Snipe Enemy Neutral Capture
+DEBUG:root:Executing:Check: if_snipe_opportunity_available
+DEBUG:root:Result: Check: if_snipe_opportunity_available -> Failure
+DEBUG:root:Result: Sequence: Snipe Enemy Neutral Capture -> Failure
+DEBUG:root:Executing:Sequence: Neutral Expansion
+DEBUG:root:Executing:Check: if_good_neutral_available
+DEBUG:root:Result: Check: if_good_neutral_available -> Failure
+DEBUG:root:Result: Sequence: Neutral Expansion -> Failure
+DEBUG:root:Executing:Sequence: Offensive Attack
+DEBUG:root:Executing:Check: if_offensive_target_available
+DEBUG:root:Result: Check: if_offensive_target_available -> Failure
+DEBUG:root:Result: Sequence: Offensive Attack -> Failure
+DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
+DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Snipe Enemy Neutral Capture
+DEBUG:root:Executing:Check: if_snipe_opportunity_available
+DEBUG:root:Result: Check: if_snipe_opportunity_available -> Failure
+DEBUG:root:Result: Sequence: Snipe Enemy Neutral Capture -> Failure
+DEBUG:root:Executing:Sequence: Neutral Expansion
+DEBUG:root:Executing:Check: if_good_neutral_available
+DEBUG:root:Result: Check: if_good_neutral_available -> Failure
+DEBUG:root:Result: Sequence: Neutral Expansion -> Failure
+DEBUG:root:Executing:Sequence: Offensive Attack
+DEBUG:root:Executing:Check: if_offensive_target_available
+DEBUG:root:Result: Check: if_offensive_target_available -> Failure
+DEBUG:root:Result: Sequence: Offensive Attack -> Failure
+DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
+DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Snipe Enemy Neutral Capture
+DEBUG:root:Executing:Check: if_snipe_opportunity_available
+DEBUG:root:Result: Check: if_snipe_opportunity_available -> Failure
+DEBUG:root:Result: Sequence: Snipe Enemy Neutral Capture -> Failure
+DEBUG:root:Executing:Sequence: Neutral Expansion
+DEBUG:root:Executing:Check: if_good_neutral_available
+DEBUG:root:Result: Check: if_good_neutral_available -> Failure
+DEBUG:root:Result: Sequence: Neutral Expansion -> Failure
+DEBUG:root:Executing:Sequence: Offensive Attack
+DEBUG:root:Executing:Check: if_offensive_target_available
+DEBUG:root:Result: Check: if_offensive_target_available -> Failure
+DEBUG:root:Result: Sequence: Offensive Attack -> Failure
+DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
+DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Snipe Enemy Neutral Capture
+DEBUG:root:Executing:Check: if_snipe_opportunity_available
+DEBUG:root:Result: Check: if_snipe_opportunity_available -> Failure
+DEBUG:root:Result: Sequence: Snipe Enemy Neutral Capture -> Failure
+DEBUG:root:Executing:Sequence: Neutral Expansion
+DEBUG:root:Executing:Check: if_good_neutral_available
+DEBUG:root:Result: Check: if_good_neutral_available -> Failure
+DEBUG:root:Result: Sequence: Neutral Expansion -> Failure
+DEBUG:root:Executing:Sequence: Offensive Attack
+DEBUG:root:Executing:Check: if_offensive_target_available
+DEBUG:root:Result: Check: if_offensive_target_available -> Failure
+DEBUG:root:Result: Sequence: Offensive Attack -> Failure
+DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
+DEBUG:root:Order:20 13 118.0
+DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Success
+DEBUG:root:Executing:Action: defend_threatened_planet
+DEBUG:root:Order:10 19 97.0
+DEBUG:root:Result: Action: defend_threatened_planet -> Success
+DEBUG:root:Result: Sequence: Defensive Strategy -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Success
+DEBUG:root:Executing:Action: defend_threatened_planet
+DEBUG:root:Order:10 19 97.0
+DEBUG:root:Result: Action: defend_threatened_planet -> Success
+DEBUG:root:Result: Sequence: Defensive Strategy -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Success
+DEBUG:root:Executing:Action: defend_threatened_planet
+DEBUG:root:Order:5 19 97.0
+DEBUG:root:Result: Action: defend_threatened_planet -> Success
+DEBUG:root:Result: Sequence: Defensive Strategy -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Snipe Enemy Neutral Capture
+DEBUG:root:Executing:Check: if_snipe_opportunity_available
+DEBUG:root:Result: Check: if_snipe_opportunity_available -> Failure
+DEBUG:root:Result: Sequence: Snipe Enemy Neutral Capture -> Failure
+DEBUG:root:Executing:Sequence: Neutral Expansion
+DEBUG:root:Executing:Check: if_good_neutral_available
+DEBUG:root:Result: Check: if_good_neutral_available -> Failure
+DEBUG:root:Result: Sequence: Neutral Expansion -> Failure
+DEBUG:root:Executing:Sequence: Offensive Attack
+DEBUG:root:Executing:Check: if_offensive_target_available
+DEBUG:root:Result: Check: if_offensive_target_available -> Failure
+DEBUG:root:Result: Sequence: Offensive Attack -> Failure
+DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
+DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Success
+DEBUG:root:Executing:Action: defend_threatened_planet
+DEBUG:root:Order:5 10 38.0
+DEBUG:root:Result: Action: defend_threatened_planet -> Success
+DEBUG:root:Result: Sequence: Defensive Strategy -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Success
+DEBUG:root:Executing:Action: defend_threatened_planet
+DEBUG:root:Order:5 10 38.0
+DEBUG:root:Result: Action: defend_threatened_planet -> Success
+DEBUG:root:Result: Sequence: Defensive Strategy -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Success
+DEBUG:root:Executing:Action: defend_threatened_planet
+DEBUG:root:Order:4 10 38.0
+DEBUG:root:Result: Action: defend_threatened_planet -> Success
+DEBUG:root:Result: Sequence: Defensive Strategy -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Snipe Enemy Neutral Capture
+DEBUG:root:Executing:Check: if_snipe_opportunity_available
+DEBUG:root:Result: Check: if_snipe_opportunity_available -> Failure
+DEBUG:root:Result: Sequence: Snipe Enemy Neutral Capture -> Failure
+DEBUG:root:Executing:Sequence: Neutral Expansion
+DEBUG:root:Executing:Check: if_good_neutral_available
+DEBUG:root:Result: Check: if_good_neutral_available -> Failure
+DEBUG:root:Result: Sequence: Neutral Expansion -> Failure
+DEBUG:root:Executing:Sequence: Offensive Attack
+DEBUG:root:Executing:Check: if_offensive_target_available
+DEBUG:root:Result: Check: if_offensive_target_available -> Failure
+DEBUG:root:Result: Sequence: Offensive Attack -> Failure
+DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
+DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Snipe Enemy Neutral Capture
+DEBUG:root:Executing:Check: if_snipe_opportunity_available
+DEBUG:root:Result: Check: if_snipe_opportunity_available -> Failure
+DEBUG:root:Result: Sequence: Snipe Enemy Neutral Capture -> Failure
+DEBUG:root:Executing:Sequence: Neutral Expansion
+DEBUG:root:Executing:Check: if_good_neutral_available
+DEBUG:root:Result: Check: if_good_neutral_available -> Failure
+DEBUG:root:Result: Sequence: Neutral Expansion -> Failure
+DEBUG:root:Executing:Sequence: Offensive Attack
+DEBUG:root:Executing:Check: if_offensive_target_available
+DEBUG:root:Result: Check: if_offensive_target_available -> Failure
+DEBUG:root:Result: Sequence: Offensive Attack -> Failure
+DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
+DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Snipe Enemy Neutral Capture
+DEBUG:root:Executing:Check: if_snipe_opportunity_available
+DEBUG:root:Result: Check: if_snipe_opportunity_available -> Failure
+DEBUG:root:Result: Sequence: Snipe Enemy Neutral Capture -> Failure
+DEBUG:root:Executing:Sequence: Neutral Expansion
+DEBUG:root:Executing:Check: if_good_neutral_available
+DEBUG:root:Result: Check: if_good_neutral_available -> Failure
+DEBUG:root:Result: Sequence: Neutral Expansion -> Failure
+DEBUG:root:Executing:Sequence: Offensive Attack
+DEBUG:root:Executing:Check: if_offensive_target_available
+DEBUG:root:Result: Check: if_offensive_target_available -> Failure
+DEBUG:root:Result: Sequence: Offensive Attack -> Failure
+DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
+DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Success
+DEBUG:root:Executing:Action: defend_threatened_planet
+DEBUG:root:Order:19 4 24.0
+DEBUG:root:Result: Action: defend_threatened_planet -> Success
+DEBUG:root:Result: Sequence: Defensive Strategy -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Success
+DEBUG:root:Executing:Action: defend_threatened_planet
+DEBUG:root:Order:19 4 24.0
+DEBUG:root:Result: Action: defend_threatened_planet -> Success
+DEBUG:root:Result: Sequence: Defensive Strategy -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Snipe Enemy Neutral Capture
+DEBUG:root:Executing:Check: if_snipe_opportunity_available
+DEBUG:root:Result: Check: if_snipe_opportunity_available -> Failure
+DEBUG:root:Result: Sequence: Snipe Enemy Neutral Capture -> Failure
+DEBUG:root:Executing:Sequence: Neutral Expansion
+DEBUG:root:Executing:Check: if_good_neutral_available
+DEBUG:root:Result: Check: if_good_neutral_available -> Failure
+DEBUG:root:Result: Sequence: Neutral Expansion -> Failure
+DEBUG:root:Executing:Sequence: Offensive Attack
+DEBUG:root:Executing:Check: if_offensive_target_available
+DEBUG:root:Result: Check: if_offensive_target_available -> Failure
+DEBUG:root:Result: Sequence: Offensive Attack -> Failure
+DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
+DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Snipe Enemy Neutral Capture
+DEBUG:root:Executing:Check: if_snipe_opportunity_available
+DEBUG:root:Result: Check: if_snipe_opportunity_available -> Failure
+DEBUG:root:Result: Sequence: Snipe Enemy Neutral Capture -> Failure
+DEBUG:root:Executing:Sequence: Neutral Expansion
+DEBUG:root:Executing:Check: if_good_neutral_available
+DEBUG:root:Result: Check: if_good_neutral_available -> Failure
+DEBUG:root:Result: Sequence: Neutral Expansion -> Failure
+DEBUG:root:Executing:Sequence: Offensive Attack
+DEBUG:root:Executing:Check: if_offensive_target_available
+DEBUG:root:Result: Check: if_offensive_target_available -> Success
+DEBUG:root:Executing:Action: attack_enemy_planet
+DEBUG:root:Order:19 2 94.0
+DEBUG:root:Result: Action: attack_enemy_planet -> Success
+DEBUG:root:Result: Sequence: Offensive Attack -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Snipe Enemy Neutral Capture
+DEBUG:root:Executing:Check: if_snipe_opportunity_available
+DEBUG:root:Result: Check: if_snipe_opportunity_available -> Failure
+DEBUG:root:Result: Sequence: Snipe Enemy Neutral Capture -> Failure
+DEBUG:root:Executing:Sequence: Neutral Expansion
+DEBUG:root:Executing:Check: if_good_neutral_available
+DEBUG:root:Result: Check: if_good_neutral_available -> Failure
+DEBUG:root:Result: Sequence: Neutral Expansion -> Failure
+DEBUG:root:Executing:Sequence: Offensive Attack
+DEBUG:root:Executing:Check: if_offensive_target_available
+DEBUG:root:Result: Check: if_offensive_target_available -> Failure
+DEBUG:root:Result: Sequence: Offensive Attack -> Failure
+DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
+DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Snipe Enemy Neutral Capture
+DEBUG:root:Executing:Check: if_snipe_opportunity_available
+DEBUG:root:Result: Check: if_snipe_opportunity_available -> Failure
+DEBUG:root:Result: Sequence: Snipe Enemy Neutral Capture -> Failure
+DEBUG:root:Executing:Sequence: Neutral Expansion
+DEBUG:root:Executing:Check: if_good_neutral_available
+DEBUG:root:Result: Check: if_good_neutral_available -> Failure
+DEBUG:root:Result: Sequence: Neutral Expansion -> Failure
+DEBUG:root:Executing:Sequence: Offensive Attack
+DEBUG:root:Executing:Check: if_offensive_target_available
+DEBUG:root:Result: Check: if_offensive_target_available -> Failure
+DEBUG:root:Result: Sequence: Offensive Attack -> Failure
+DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
+DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Defensive Strategy
+DEBUG:root:Executing:Check: if_defensive_threat
+DEBUG:root:Result: Check: if_defensive_threat -> Failure
+DEBUG:root:Result: Sequence: Defensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Snipe Enemy Neutral Capture
+DEBUG:root:Executing:Check: if_snipe_opportunity_available
+DEBUG:root:Result: Check: if_snipe_opportunity_available -> Failure
+DEBUG:root:Result: Sequence: Snipe Enemy Neutral Capture -> Failure
+DEBUG:root:Executing:Sequence: Neutral Expansion
+DEBUG:root:Executing:Check: if_good_neutral_available
+DEBUG:root:Result: Check: if_good_neutral_available -> Failure
+DEBUG:root:Result: Sequence: Neutral Expansion -> Failure
+DEBUG:root:Executing:Sequence: Offensive Attack
+DEBUG:root:Executing:Check: if_offensive_target_available
+DEBUG:root:Result: Check: if_offensive_target_available -> Failure
+DEBUG:root:Result: Sequence: Offensive Attack -> Failure
+DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
+DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+

@@ -58,7 +58,7 @@ def if_good_neutral_available(state):
         cost_to_take = neutral.num_ships + 2
         if strongest_planet.num_ships > cost_to_take and neutral.growth_rate >= 1:
             score = neutral.growth_rate / (neutral.num_ships + distance + 1)
-            if score >= 0.5:
+            if score >= 0.15:
                 return True
     return False
 
